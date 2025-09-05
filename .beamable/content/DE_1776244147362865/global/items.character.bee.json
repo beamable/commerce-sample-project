@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": false
+      }
+    },
+    "Display": {
+      "data": "Bee"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "8721cbbfe3ba6a8418cd21a8de3a410c",
+        "subObjectName": "Idle (36x34)_0"
+      }
+    },
+    "Prefab": {
+      "data": {
+        "referenceKey": "665f144dbc7ed93418213a407f924328",
+        "subObjectName": ""
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

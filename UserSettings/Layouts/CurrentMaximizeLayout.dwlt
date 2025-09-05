@@ -1,0 +1,1919 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 36
+    width: 942
+    height: 964
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 1576
+  draggingID: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Scene\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2681
+    y: -150
+    width: 266
+    height: 479
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Tool Settings
+      index: 0
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-171.0,"y":-26.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -171, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-141.0,"y":-213.5},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -141, y: -213.5}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-toolbar
+      index: 0
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: unity-search-toolbar
+      index: 2
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":-24.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -24, y: 0}
+      snapCorner: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      displayed: 1
+      id: unity-transform-toolbar
+      index: 0
+      contents: '{"m_Layout":2,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      displayed: 1
+      id: unity-component-tools
+      index: 1
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      displayed: 1
+      id: Orientation
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":67.5,"y":86.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Light Settings
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Camera
+      index: 1
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Constraints
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Collisions
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Agent Display
+      index: 5
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Particles
+      index: 10
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap
+      index: 11
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Open Tile Palette
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap Focus
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Path
+      index: 12
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/TrailRenderer
+      index: 11
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":48.0,"y":48.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 8
+      contents: 
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 27, y: 293}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Brush Attributes
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-camera-mode-toolbar
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-191.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -191, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Terrain Tools
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Brush Masks
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--left
+      displayed: 0
+      id: Scene View/Lighting Visualization Colors
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--left
+      displayed: 1
+      id: Overlays/OverlayMenu
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tile Palette Clipboard
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tile Palette Brush Pick
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: APV Overlay
+      index: 13
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Sprite Swap
+      index: 14
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: SceneView/CamerasOverlay
+      index: 15
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/PBR Validation Settings
+      index: 16
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 24, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    m_ContainerData:
+    - containerId: overlay-toolbar__top
+      scrollOffset: 0
+    - containerId: overlay-toolbar__left
+      scrollOffset: 0
+    - containerId: overlay-container--left
+      scrollOffset: 0
+    - containerId: overlay-container--right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__bottom
+      scrollOffset: 0
+    - containerId: Floating
+      scrollOffset: 0
+    m_OverlaysVisible: 1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_DebugDrawModesUseInteractiveLightBakingData: 0
+  m_Position:
+    m_Target: {x: 93.89897, y: 174.04025, z: 2.0767863}
+    speed: 2
+    m_Value: {x: 93.89897, y: 174.04025, z: 2.0767863}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0.5, y: 0.5}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0.5, y: 0.5}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 232.0851
+    speed: 2
+    m_Value: 232.0851
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_Viewpoint:
+    m_SceneView: {fileID: 2}
+    m_CameraOverscanSettings:
+      m_Opacity: 50
+      m_Scale: 1
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_LastDebugDrawMode:
+    drawMode: 35
+    name: 
+    section: 
+  m_ViewIsLockedToObject: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 509
+    height: 964
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 1577
+  draggingID: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 509
+    height: 505
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 1578
+  draggingID: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 241
+    height: 505
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 6}
+  m_Panes:
+  - {fileID: 6}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Hierarchy\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2440
+    y: -150
+    width: 240
+    height: 479
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 74d90000
+      m_LastClickedID: 55668
+      m_ExpandedIDs: 02fbffff36d90000a2d90000d2d90000dcd900000cda000014da0000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 241
+    y: 0
+    width: 268
+    height: 505
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 2}
+  m_Panes:
+  - {fileID: 2}
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Game\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2681
+    y: -150
+    width: 266
+    height: 479
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 266, y: 458}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -133
+    m_HBaseRangeMax: 133
+    m_VBaseRangeMin: -229
+    m_VBaseRangeMax: 229
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 266
+      height: 458
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 133, y: 229}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -133
+      y: -229
+      width: 266
+      height: 458
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 266, y: 479}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+  m_showToolbar: 1
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fb5949794f496d81a871dd92e24a49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Beam Content
+    m_Image: {fileID: 2800000, guid: 3b099ea9b7e0b487fa0e667d3e931902, type: 3}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Beam Content\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1629
+    y: -150
+    width: 461
+    height: 392
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  InitializedConfig:
+    Title: Beam Content
+    DockPreferenceTypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    FocusOnShow: 0
+    RequireLoggedUser: 1
+    RequirePid: 1
+  _contentSearchData:
+    searchText: 
+  mainSplitter:
+    splitDirection: 0
+    cellCount: 2
+    cellNormalizedSizes:
+    - 0.3654267
+    - 0.6345728
+    resizingIndex: -1
+    scrollPositions:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0}
+    availableRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 457
+      height: 292
+  selectedValidationIndex: 0
+  validationDetailScrollPosition: {x: 0, y: 0}
+  _frameRenderedItems:
+  - FullId: botprofile.standard
+    TypeName: botprofile
+    Name: standard
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: ec4995ec247a6e8fdd9435916b16f2d40d0a2c34
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/botprofile.standard.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: currency.gems
+    TypeName: currency
+    Name: gems
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 737d5e1d41f3d32df65af5bd83e8e1ad732e5d1f
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/currency.gems.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: emails.password_update
+    TypeName: emails
+    Name: password_update
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 178e4d3a9d818384d41eecb125b9a635ee156378
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/emails.password_update.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: game_types.bots_only
+    TypeName: game_types
+    Name: bots_only
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: ec40a2eb37a7ca16fc9a7f48ed93bbbdf45ec632
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/game_types.bots_only.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: game_types.free_for_all
+    TypeName: game_types
+    Name: free_for_all
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 259dfa8ea8b6a611c7421cc55fc6acff287876a2
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/game_types.free_for_all.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.bee
+    TypeName: items.character
+    Name: bee
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: f8cf49f12ae92cd3b8bad63a2b5765029732276a
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.bee.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.chameleon
+    TypeName: items.character
+    Name: chameleon
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 3aff9f6b49a5137c7e870ceb2a0b1194c5f9b2be
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.chameleon.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.chicken
+    TypeName: items.character
+    Name: chicken
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 9dbdd0dd6fe1a40066b4d1cf3731e2359fe2b566
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.chicken.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.fatbird
+    TypeName: items.character
+    Name: fatbird
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: edaf5948f9debcfafa6622bfdda6d73a87fa313b
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.fatbird.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.goon
+    TypeName: items.character
+    Name: goon
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 6c24f1b6cda455f42e12b8d282eff10410083004
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.goon.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.mushroom
+    TypeName: items.character
+    Name: mushroom
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 9369cc4ca537aabd405eca16c18c879d562c5517
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.mushroom.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.tucan
+    TypeName: items.character
+    Name: tucan
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 0015d64083464287a9760270c37c5af322f7fe07
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.tucan.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.turtle
+    TypeName: items.character
+    Name: turtle
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 24864a13c33713eb7827794a1e44644f871a8110
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.turtle.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.armyhat
+    TypeName: items.hat
+    Name: armyhat
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 78b060ee374e70703516a28cd4d02a696690bbea
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.armyhat.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.baseball
+    TypeName: items.hat
+    Name: baseball
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 5ab37c75838f38f5b4b7fca24b380cf0b6ac3aee
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.baseball.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.beanie
+    TypeName: items.hat
+    Name: beanie
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 995455bb7816ae7388e8515e3516471dc3f0c30e
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.beanie.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.cowboy
+    TypeName: items.hat
+    Name: cowboy
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: d0d3d1da70bb398b1e4fc648bf0a1e46abf0b05e
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.cowboy.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.crown
+    TypeName: items.hat
+    Name: crown
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: cc47699c15e33898ac4a766a1412a04c876dde55
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.crown.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.fez
+    TypeName: items.hat
+    Name: fez
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 4503ec95999b380a515ba03644663769d47d62e1
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.fez.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.helmet
+    TypeName: items.hat
+    Name: helmet
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: f4b49910b9eef25dd8e029ebda499f5d1ce32f45
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.helmet.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.tophat
+    TypeName: items.hat
+    Name: tophat
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 991abbc64500fff4d10cf04b01485d156e015a4e
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.tophat.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.viking
+    TypeName: items.hat
+    Name: viking
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: c017761d1a48a195fde4da0c36254c9972b4f62f
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.viking.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: leaderboards.default
+    TypeName: leaderboards
+    Name: default
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 5b0c8fc010ba15f19e6aa3ca5efb0031e7fa046b
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/leaderboards.default.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: leaderboards.game
+    TypeName: leaderboards
+    Name: game
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 366b59d652d65d720d123e4fc9c139a926bb988c
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/leaderboards.game.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.armyhat
+    TypeName: listings
+    Name: armyhat
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: eb7eef9140edd5c29d67144b587f1c03fd3be82d
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.armyhat.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.baseball
+    TypeName: listings
+    Name: baseball
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: e078e45b89bf54d501ba8f186daa48104050de7e
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.baseball.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.beanie
+    TypeName: listings
+    Name: beanie
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 4f13395d990a0a1da04fd7a0b667cebdf6fc7d15
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.beanie.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.bee
+    TypeName: listings
+    Name: bee
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 04ba9ddfbe3e76bda741d2d8ae0b140ed14c29f8
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.bee.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.chameleon
+    TypeName: listings
+    Name: chameleon
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 21c3f1538c31e916179947601b6ea21a8913e0b9
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.chameleon.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.chicken
+    TypeName: listings
+    Name: chicken
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 3f12532ccd8f835503b363d95e870a7a5cb5149e
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.chicken.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.cowboy
+    TypeName: listings
+    Name: cowboy
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 3c14f754fe562ed52f023aa43a447cb395e2eff4
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.cowboy.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.crown
+    TypeName: listings
+    Name: crown
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: a758d1734012b8780dc39e9a0a2d18c5b1deaa89
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.crown.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.fatbird
+    TypeName: listings
+    Name: fatbird
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 6080f74bac0a79b3d731757a7c29b7db133aa01b
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.fatbird.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.fez
+    TypeName: listings
+    Name: fez
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 0e063a6806c55bcb8d8c6871bbb58ec2e0cb62d5
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.fez.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.gem_bag
+    TypeName: listings
+    Name: gem_bag
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: d46764a593e7224756ba49a117ced15f49d8efea
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.gem_bag.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.gem_chest
+    TypeName: listings
+    Name: gem_chest
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: d40f37eed475bfcdb2cf8b70c9ca097c74b0a647
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.gem_chest.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.mushroom
+    TypeName: listings
+    Name: mushroom
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 35bcd8d35916fa0bf939b28ac6b9e83fddfea205
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.mushroom.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.tophat
+    TypeName: listings
+    Name: tophat
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: cbe12ac6830a459e5f84cf41fd0b724c5e922b89
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.tophat.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.tucan
+    TypeName: listings
+    Name: tucan
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 81fe05832a759b6869fdbfca7046fcee68c9356d
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.tucan.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.turtle
+    TypeName: listings
+    Name: turtle
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: c7d6d50669e46881a8f214d76443cfce4bf70b8f
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.turtle.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.viking
+    TypeName: listings
+    Name: viking
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 67120a2e4dacec38437e08d23b3f45e9a8c89874
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.viking.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: skus.dollar
+    TypeName: skus
+    Name: dollar
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 2b40ed243ee3c13099a3a4415836d69281901540
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/skus.dollar.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: skus.two_dollars
+    TypeName: skus
+    Name: two_dollars
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 9d3cd277309a6811790ffcd15d6e64217c80191d
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/skus.two_dollars.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: stores.characters
+    TypeName: stores
+    Name: characters
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 0d9a29f85af0880cc48d6ef23449f85d5e128e57
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/stores.characters.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: stores.gems
+    TypeName: stores
+    Name: gems
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: f0343daf481dfc77e2d786237e5c20f457a8be3c
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/stores.gems.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: stores.hats
+    TypeName: stores
+    Name: hats
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: e5ae5a8ab7bc49b0612fe1d184583899ef7f10f6
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/stores.hats.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  - FullId: tournaments.default
+    TypeName: tournaments
+    Name: default
+    CurrentStatus: 4
+    IsInConflict: 0
+    Hash: 5f4c476dd328de7e3016874b7514e4641891caf5
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/tournaments.default.json
+    ReferenceManifestUid: 68ad6fe92be3b2152176d5cf
+    LatestUpdateAtDate: 1756196841575
+  _itemContentIdToRowRect:
+    keys:
+    - botprofile.standard
+    - currency.gems
+    - emails.password_update
+    - game_types.bots_only
+    - game_types.free_for_all
+    - items.character.bee
+    - items.character.chameleon
+    - items.character.chicken
+    - items.character.fatbird
+    - items.character.goon
+    - items.character.mushroom
+    - items.character.tucan
+    - items.character.turtle
+    - items.hat.armyhat
+    - items.hat.baseball
+    - items.hat.beanie
+    - items.hat.cowboy
+    - items.hat.crown
+    - items.hat.fez
+    - items.hat.helmet
+    - items.hat.tophat
+    - items.hat.viking
+    - leaderboards.default
+    - leaderboards.game
+    - listings.armyhat
+    - listings.baseball
+    - listings.beanie
+    - listings.bee
+    - listings.chameleon
+    - listings.chicken
+    - listings.cowboy
+    - listings.crown
+    - listings.fatbird
+    - listings.fez
+    - listings.gem_bag
+    - listings.gem_chest
+    - listings.mushroom
+    - listings.tophat
+    - listings.tucan
+    - skus.dollar
+    - skus.two_dollars
+    - stores.characters
+    - stores.gems
+    - stores.hats
+    - tournaments.default
+    - listings.turtle
+    - listings.viking
+    values: 0900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000a0000001e00000032000000460000005a0000006e0000008200000096000000aa000000be000000d2000000e6000000fa0000000e01000022010000090000000900000009000000090000000900000009000000360100004a010000
+  _legacyContentGuids: []
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 505
+    width: 509
+    height: 459
+  m_MinSize: {x: 101, y: 126}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 11}
+  - {fileID: 12}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Project\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2318
+    y: 355
+    width: 654
+    height: 433
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Turtle
+    m_Globs: []
+    m_ProductIds: 
+    m_AnyWithAssetOrigin: 0
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Turtle
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: /Users/georgianaion/Documents/Beamable/shop-sample-project
+  m_LockTracker:
+    m_IsLocked: 1
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 535}
+    m_SelectedIDs: 80090100
+    m_LastClickedID: 67968
+    m_ExpandedIDs: 00000000c4e10000c6e10000c8e10000cae10000cce10000cee10000d0e10000d2e10000d4e10000d6e10000d8e10000dae10000dce10000dee10000e0e10000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 10}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000c4e10000c6e10000c8e10000cae10000cce10000cee10000d0e10000d2e10000d4e10000d6e10000d8e10000dae10000dce10000dee10000e0e10000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000cc0c0100
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 193
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Console\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2440
+    y: 355
+    width: 508
+    height: 433
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 509
+    y: 0
+    width: 433
+    height: 964
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Inspector\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 2949
+    y: -150
+    width: 432
+    height: 938
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: -160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}

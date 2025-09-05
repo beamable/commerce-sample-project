@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "listings": {
+      "$links": [
+        "listings.armyhat",
+        "listings.baseball",
+        "listings.beanie",
+        "listings.cowboy",
+        "listings.fez",
+        "listings.tophat",
+        "listings.viking",
+        "listings.crown"
+      ]
+    },
+    "showInactiveListings": {
+      "data": false
+    },
+    "title": {
+      "data": "hats"
+    }
+  },
+  "tags": [],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": false
+      }
+    },
+    "Display": {
+      "data": "Chameleon"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "43f6bb244a62313438cda197a8e07007",
+        "subObjectName": "Idle (84x38)_0"
+      }
+    },
+    "Prefab": {
+      "data": {
+        "referenceKey": "95fad53228437954cac6283500368f55",
+        "subObjectName": ""
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

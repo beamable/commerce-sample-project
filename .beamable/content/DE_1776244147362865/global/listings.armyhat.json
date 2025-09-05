@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "offer": {
+      "data": {
+        "obtainCurrency": [],
+        "obtainItems": [
+          {
+            "contentId": "items.hat.armyhat",
+            "properties": []
+          }
+        ]
+      }
+    },
+    "price": {
+      "data": {
+        "amount": 5,
+        "symbol": "currency.gems",
+        "type": "currency"
+      }
+    }
+  },
+  "tags": [],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

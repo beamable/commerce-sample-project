@@ -1,0 +1,54 @@
+{
+  "properties": {
+    "names": {
+      "data": [
+        "evil chris",
+        "evil justin",
+        "evil brandon",
+        "evil sathvik",
+        "evil trapper",
+        "evil angie",
+        "evil erin",
+        "evil john",
+        "evil allister",
+        "evil ben",
+        "evil sam",
+        "evil matt",
+        "evil javiera",
+        "evil akansha"
+      ]
+    },
+    "weights": {
+      "data": [
+        {
+          "arrowWeight": 1,
+          "fireballWeight": 1,
+          "name": "wonderer",
+          "shieldWeight": 1,
+          "skipWeight": 0,
+          "walkWeight": 20
+        },
+        {
+          "arrowWeight": 10,
+          "fireballWeight": 10,
+          "name": "aggro",
+          "shieldWeight": 1,
+          "skipWeight": 0,
+          "walkWeight": 3
+        },
+        {
+          "arrowWeight": 1,
+          "fireballWeight": 1,
+          "name": "shielder",
+          "shieldWeight": 5,
+          "skipWeight": 0,
+          "walkWeight": 5
+        }
+      ]
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

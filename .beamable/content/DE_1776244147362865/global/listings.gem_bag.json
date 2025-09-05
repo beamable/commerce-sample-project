@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "offer": {
+      "data": {
+        "obtainCurrency": [
+          {
+            "amount": 25,
+            "symbol": "currency.gems"
+          }
+        ],
+        "obtainItems": []
+      }
+    },
+    "price": {
+      "data": {
+        "amount": 1,
+        "symbol": "skus.dollar",
+        "type": "skus"
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

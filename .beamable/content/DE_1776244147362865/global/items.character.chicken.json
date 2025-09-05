@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": false
+      }
+    },
+    "Display": {
+      "data": "Chicken"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "f729d6acae7cd754a864abda75a4bbd7",
+        "subObjectName": "Idle (32x34)_0"
+      }
+    },
+    "Prefab": {
+      "data": {
+        "referenceKey": "30a51403d4ae5476a88ec0be9821cd6a",
+        "subObjectName": ""
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

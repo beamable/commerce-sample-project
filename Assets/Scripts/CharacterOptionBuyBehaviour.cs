@@ -1,0 +1,64 @@
+using System.Collections.Generic;
+using Beamable;
+using Beamable.Api.Payments;
+using Beamable.Common.Inventory;
+using Hats.Content;
+using Hats.Simulation;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class CharacterOptionBuyBehaviour : MonoBehaviour
+{
+    [Header("Internal References")]
+    public CharacterOptionBehaviour CharacterOptionBehaviour;
+
+    [Header("UI References")]
+    public TextMeshProUGUI CostText;
+    public Image CostIcon;
+    public Image AffordMaskImage;
+    public List<GameObject> DestroyOnPurchase;
+
+    [Header("Internals")]
+    [ReadOnly]
+    [SerializeField]
+    private bool _isBought;
+
+    private BeamContext _beamContext;
+
+    public async void SetOption(CharacterContent character, PlayerListingView listing, CurrencyRef currency, Sprite costIcon, bool canAfford)
+    {
+        CharacterOptionBehaviour.SetOption(character);
+        CostIcon.sprite = costIcon;
+        CostText.text = listing.offer.price.amount.ToString();
+
+        _beamContext = BeamContext.Default;
+        await _beamContext.OnReady;
+        _beamContext.Api.InventoryService.Subscribe(currency.Id, inventoryView =>
+        {
+            if (_isBought) return; // reject if we already bought it...
+
+            // recalculate affordability if the price changes...
+            var canNowAfford = inventoryView.currencies[currency.Id] >= listing.offer.price.amount;
+            if(AffordMaskImage != null)
+					AffordMaskImage.gameObject.SetActive(!canNowAfford);
+        });
+
+        if (canAfford)
+        {
+            AffordMaskImage.gameObject.SetActive(false);
+        }
+    }
+
+    public void CompletePurchase()
+    {
+        if (_isBought) return;
+        _isBought = true;
+
+        foreach (var x in DestroyOnPurchase)
+        {
+            x.SetActive(false);
+        }
+
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": false
+      }
+    },
+    "Display": {
+      "data": "FatBird"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "60beccb521110cf40be533c702156072",
+        "subObjectName": "Idle (40x48)_0"
+      }
+    },
+    "Prefab": {
+      "data": {
+        "referenceKey": "01b121adef30e435c9649898bc152cb3",
+        "subObjectName": ""
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

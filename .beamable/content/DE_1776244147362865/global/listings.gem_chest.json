@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "clientData": {
+      "data": {
+        "prefabOverride": "bestValue"
+      }
+    },
+    "offer": {
+      "data": {
+        "obtainCurrency": [
+          {
+            "amount": 100,
+            "symbol": "currency.gems"
+          }
+        ],
+        "obtainItems": []
+      }
+    },
+    "price": {
+      "data": {
+        "amount": 1,
+        "symbol": "skus.two_dollars",
+        "type": "skus"
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

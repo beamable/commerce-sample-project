@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": false
+      }
+    },
+    "Display": {
+      "data": "Crown"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "3105ecce0ff9acc4ca416fd2d8175900",
+        "subObjectName": ""
+      }
+    },
+    "Offset": {
+      "data": {
+        "x": 0.03,
+        "y": -0.02
+      }
+    },
+    "Rotation": {
+      "data": -30
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

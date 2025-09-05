@@ -1,0 +1,1103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 71557cffb1817c24e9e7d74781bb30eb
+  m_SerializeEntries:
+  - m_GUID: 00c591dcfa3de6d469b9535ad79f8f45
+    m_Address: Assets/Tiles/Ground Rock.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01b121adef30e435c9649898bc152cb3
+    m_Address: Assets/Prefabs/FatBirdCharacter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02f6a2469272a1740a629fdc51415d8f
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Trunk/Hit (64x32).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 045eb5e1f0cbc424e9a8eed9eaf27bf8
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Skull/Idle 1 (52x54).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 061e846bd4a5ba449bf75b630b1a7dcb
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rocks/Rock3_Idle
+      (22x18).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 070a0fea8d7c56647b4a4a1bf7feb63e
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bunny/Idle (34x44).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08085dcdc599d744daafcffde137a41a
+    m_Address: Assets/ThirdParty/Hat Pack/classicFedora.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 080db60aa3dd08948a8e681b8213091f
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 088e7cd9b4cd1e04da490879c149be45
+    m_Address: Assets/Tiles/Ground Ice.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0996bfd4d858847619192def62652547
+    m_Address: Assets/Prefabs/Ghost.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0aff58a705260724ba202eab0ca4f5f7
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Ghost/Desappear
+      (44x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b26f3b5717524142860beaa154ff347
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/#2 - Transparent
+      Icons & Drop Shadow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b35535918bf72f4a9f6d0311709b8a2
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/FatBird/Fall (40x48).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bd989db41f35c244937f21e8cfb3f46
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 3b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d45a0d8b949d0a4e9eafdc24f22ef64
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rino/Hit (52x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ddaf0d93bca33b43a25e83dff42c1c8
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0eaf9fe6c11160f438c2d72544ae3270
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_white.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11a4033edaa2ca34ca1529d04f8ec106
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rocks/Rock3_Hit
+      (22x18).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11d964a7f73f03c479072fa5ca009a7f
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bunny/Fall.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14048ba4b41a50449a2a86a01088f5e2
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Ghost/Gost Particles
+      (16x16).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14cd0a595ad013847afa1ef525bc5d95
+    m_Address: Assets/ThirdParty/Hat Pack/lumberjack.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15391e5ded3582343ad2af681e19254c
+    m_Address: Assets/ThirdParty/Hat Pack/waldo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16ac26d8f06504f4f9b4ec5b7514595b
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Mushroom/Hit (32x32).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17f1500d499e1e546814f4f32624b47e
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bat/Idle (46x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18c77fa2029e9b241bd29421c720e28b
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/#1 - Transparent
+      Icons-original.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18ded7077989ed04d8cbeaad2545a2b1
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bat/Ceiling Out
+      (46x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19a7bcd1155e0154cb6696cc857220a6
+    m_Address: Assets/Tiles/Ground Grass Sudden Death.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19ba8431b163649d5807b6356c5aac8f
+    m_Address: Assets/Prefabs/TucanCharacter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a6a09d346d070341809e5f3b9a2e40d
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a8646fab57dc21428dd8814d3bc2de6
+    m_Address: Assets/ThirdParty/Hat Pack/beanie.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b30865eb3e4c8e4c98659ab87085cf7
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/FatBird/Ground
+      (40x48).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1be4f088c23bfd74091c162649ac6f15
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Turtle/Hit (44x26).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d9efcd1339430d44bc94c7173a479d8
+    m_Address: Assets/ThirdParty/Hat Pack/50sNurse.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2083775e9a6509343b255038448305be
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/AngryPig/Hit 2
+      (36x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23316aba36e680643b65700c107f2b36
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Chicken/Hit (32x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2436a5f827309984297494cf7717f18e
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 3c.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2472b0e6448546d459845bb15c81ed89
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24b784d997501b84ba700cfcdd2951f7
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_rock_grey.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25a8550c1c9d550409ba5345a9a97ad2
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Radish/Idle 2 (30x38).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 295e0d0c25a12524a9feede5d5dbc3dc
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 7.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c363654c6b241e4b90c02a9d2ab3d6a
+    m_Address: Assets/Tiles/Decorative Rock.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dac44cb929e4b046ad80016d4846310
+    m_Address: Assets/ThirdParty/Hat Pack/wig.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ee221a4e4a19ac479fcbde053eb8d60
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bee/Hit (36x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2efae9cca51885b4da71405003c80901
+    m_Address: Assets/ThirdParty/Hat Pack/police.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f12488ab614a2d429ed8450eeae533d
+    m_Address: Assets/ThirdParty/Hat Pack/fez.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30a51403d4ae5476a88ec0be9821cd6a
+    m_Address: Assets/Prefabs/ChickenCharacter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30c63614215ec0047bc587822e5779b5
+    m_Address: Assets/ThirdParty/Hat Pack/leprechaun.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3105ecce0ff9acc4ca416fd2d8175900
+    m_Address: Assets/ThirdParty/Hat Pack/crown.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 326dd6eeaa0ca144ca01194dbacf63fa
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Plant/Idle (44x42).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3315bdad18a105d49a220419bb2c813f
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/AngryPig/Walk (36x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 341181c8b3919d64b850c988c806bd91
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rocks/Rock2_Run
+      (32x28).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35d33412cf90ccf4f9e1b5100ba41640
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Snail/Idle (38x24).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35e086690f09c9f46aa162a5be5a4133
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Duck/Idle (36x36).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 365ff2c6a5538604bbdf475c76e47513
+    m_Address: Assets/ThirdParty/Hat Pack/beanieWithTassels.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3714f31227c136a4ab2e9544f5e109d4
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Radish/Run (30x38).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3724b353e68e7cb4da0d63e21b03811a
+    m_Address: Assets/ThirdParty/Hat Pack/army.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37b1ba7ffc549af49af9b9327b6f897d
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall
+      2 (52x54).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38cb56d15dc28c34eaf4da30ab64c8fb
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Duck/Jump (36x36).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3aad790845ea9f14a9e5da10a5d3f856
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Snail/Snail without
+      shell.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 405bd2c7f1d5e87418d4d822bb9c4659
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/button_rock_Play4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4133b4cc9a813ce49bd340cdf2faae5a
+    m_Address: Assets/ThirdParty/Hat Pack/princess.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 419f1f3d5fcf8204389dd119348a56e1
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rocks/Rock1_Idle
+      (38x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 424cf879be82f4745858acac29c12ee3
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Duck/Jump Anticipation
+      (36x36).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43f6bb244a62313438cda197a8e07007
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Chameleon/Idle
+      (84x38).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44a018b33d0fa1645a776046d2f4ec7b
+    m_Address: Assets/ThirdParty/Hat Pack/catEars.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44bf90fb9fb70524c87497a99496921c
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Plant/Bullet Pieces
+      (16x16).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44f61062668c947418daa0363265b222
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Trunk/Attack (64x32).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 486531e3c41c1b145a0bde2b3051b522
+    m_Address: Assets/ThirdParty/Hat Pack/tophat.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48adb2ca56fe5754a86c539a6bd10636
+    m_Address: Assets/ThirdParty/Hat Pack/hotdog.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48fabbf5f431fee489fc720634fea0b6
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bunny/Hit (34x44).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c94a2511c19b0c4f99ce29c30d9ee7a
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Snail/Shell Idle
+      (38x24).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4de760c38ab41314bbdcfb6943023452
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Mushroom/Run (32x32).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 505391a19bb05954ea44a8929a7104ec
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Snail/Walk (38x24).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 505531a920a60324aa02b4ed57eba7a3
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Chicken/Run (32x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50ea0a2049dd9d14f9ff5f198268d91e
+    m_Address: Assets/ThirdParty/Hat Pack/freakazoid.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52d40d1d463a123498d838dd108b712a
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Slime/Idle-Run
+      (44x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 536652903ec463b4a924bcb28b6918ce
+    m_Address: Assets/ThirdParty/Hat Pack/graduation.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54aabc49583d77e4587c8ce5ed94edab
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Skull/Hit Wall
+      1 (52x54).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 550949d173469e64b98691ac2b3d9388
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Radish/Hit (30x38).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5710bba253f773f48a947cde911e3f31
+    m_Address: Assets/ThirdParty/Hat Pack/sunhat.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a09a10d6428f4babbf5d19546659fed
+    m_Address: Assets/Prefabs/CharacterSelectionPreview.renderTexture
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a75d544e1c05b94397497ee4d66e348
+    m_Address: Assets/ThirdParty/Hat Pack/baseballCap.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b94c5df9bdd3c9488690c89f80edde5
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Turtle/Spikes out
+      (44x26).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bf49fb08e8d282429049467171af2ee
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_moss_yellow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c876d5b9f3c75b409e35030dd07bc57
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Chameleon/Run (84x38).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cdecb593477c59478ebc0b2d9695ae6
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bee/Bullet Pieces
+      (16x16).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dbb9c922aee09040ba86305f36b88c8
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_rock_black.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f6e4279b73f74146bcf36013201d778
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rino/Run (52x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60beccb521110cf40be533c702156072
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/FatBird/Idle (40x48).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64951a2895af28a48b49917b3da38240
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Snail/Shell Top
+      Hit (38x24).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 665f144dbc7ed93418213a407f924328
+    m_Address: Assets/Prefabs/BeeCharacter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 668fc83d059c8ae43bc047e09cba2c12
+    m_Address: Assets/Prefabs/TurtleCharacter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 669ef922a468d184489d2a28b0f84bb0
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bee/Bullet.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67614e826f7bd4d8798125b2b2d81773
+    m_Address: Assets/Prefabs/GhostHat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6800e71ba0f7fb540975b565c43a1930
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/FatBird/Hit (40x48).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6991e54fe8bb5724bafb4aba16583d49
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/AngryPig/Run (36x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a35614600a51dc48a56033b6f154452
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_moss_red.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a997a85c2bc78d418827f7c323cf2b5
+    m_Address: Assets/Tiles/Ground Lava.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b685a8ef183fec4aa5ac2e0db948a7d
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ef9909c8d130c64389cc9c0eb91f220
+    m_Address: Assets/ThirdParty/Hat Pack/birthday.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f955f561c703214d917cbf06a092999
+    m_Address: Assets/ThirdParty/Hat Pack/santaHat.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fb78d296f546aa4680350fd6e8e3315
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rocks/Rock3_Run
+      (22x18).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 703f1cbc469130646883beb3e44c0dd4
+    m_Address: Assets/ThirdParty/Hat Pack/ww1German.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 731867517a430014189576f2c7e17e03
+    m_Address: Assets/ThirdParty/Hat Pack/horseHead.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75d23c909658dec419a00762106e1e10
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_moss_blue.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 785a6fd4456d66e4b80bd31411a1c586
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/button_rock_Play2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78e42b017cb8e464ea47ed52099f85a1
+    m_Address: Assets/ThirdParty/Hat Pack/bullHorns.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79264f57d0079394b81c0a96ed4353aa
+    m_Address: Assets/ThirdParty/Hat Pack/50sMilitary.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e37da94529aef044bef2072000043ba
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 4a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f5381d63003f493b98fea31f626ceaf
+    m_Address: Assets/Prefabs/Hat.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80ab1d417eec35e43a8ac810121ef5df
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Slime/Hit (44x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81599edd816625a4394b87c55bc6d552
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Turtle/Idle 1 (44x26).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8253a08deb54ae34e99bf1d8b88e05a9
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/Background 1b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85eaa32df7ceb734a82e9ab2f0092d8a
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 10.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86d0d9416278f394699854671cc39b9d
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_rock_violet.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8721cbbfe3ba6a8418cd21a8de3a410c
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bee/Idle (36x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 879f42eb54eb4f8489bc40c802959898
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Chameleon/Hit (84x38).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88a4db8fe343c2e47b01252c3aacb6ae
+    m_Address: Assets/ThirdParty/Hat Pack/bowlerHat.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8919fb6fdc56537469445fd6e15bc7cf
+    m_Address: Assets/ThirdParty/Hat Pack/shark.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c370d3f7e6462549af62dcef01cf86e
+    m_Address: Assets/ThirdParty/Hat Pack/antlers.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 916a64fbaaa2f4f89bb72e0adc23e01a
+    m_Address: Assets/Tiles/green_hexagon.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91b25275eae7e0d42a0f271880e21b72
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bee/Attack (36x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92aed355811f74647a8a12fc00cbe8c5
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92efab9bd840360409c373740e5e3482
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rocks/Rock2_Hit
+      (32x28).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93bed5cfdb95d774ea126d7f69794b62
+    m_Address: Assets/ThirdParty/Hat Pack/outback.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 948e7658d76dc3d46b7e5f57e99721a2
+    m_Address: Assets/ThirdParty/Hat Pack/bicorn.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95df872aa20840e4ba97e79e25bea7e2
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/Background 1a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95fad53228437954cac6283500368f55
+    m_Address: Assets/Prefabs/ChameleonCharacter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 963d94771a0892a4ba464552081e5093
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 9.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97f2bbef76b39bd419e39597096f6a34
+    m_Address: Assets/ThirdParty/Hat Pack/beret.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99a6f8d881d96d045a18fa94cfb5b914
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Plant/Hit (44x42).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cfc0116f92113a459a7e02f469b0abf
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bat/Ceiling In
+      (46x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d3a57bf16487764588287654b487d2d
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Chameleon/Attack
+      (84x38).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f8778d0d44049a459735824f24042e0
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/BlueBird/Flying
+      (32x32).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a26831e3796d4f6498e8400f4a01326b
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Ghost/Appear (44x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5db2c5a1341e2d4baa773935324626a
+    m_Address: Assets/Tiles/Ground Grass.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6465882e447a7346b1d80709f6094be
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Mushroom/Idle (32x32).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a805ad4bfa007834ea35a07f29e61cab
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/#1 - Transparent
+      Icons.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a84745caca919394ea0a3541417402d8
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/BlueBird/Hit (32x32).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8cfea62a6d47e848a5184acd31f104d
+    m_Address: Assets/Prefabs/MushroomCharacter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9a2e792e09a33b428d70b813df6a1db
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Skull/Red Particle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9c658600a401f347888cfd916603aa4
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Turtle/Idle 2 (44x26).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aea751a727cad1c49bc599975fb0b747
+    m_Address: Assets/ThirdParty/Hat Pack/captains.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aec37b825939c4640ba5db40252ff5e7
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bunny/Run (34x44).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af986635e8356a644a7348f570cd3579
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rino/Hit Wall (52x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1ba59a5e0321eb459d8717bf09639dd
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Snail/Hit (38x24).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b34a4da18392a724fb34c3c652dc3895
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_rock_red.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4352493a17ac3744acef0f8c5d0ab5a
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 11.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4bbe250b0c4afe438a61f92fb3e3682
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/button_rock_Play3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4d5a8e7a909b5f4c9a6e921b6a67e0a
+    m_Address: Assets/ThirdParty/Hat Pack/takuhatsugasa.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b66d3ed271c328c4b9084c2e0bdb616b
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Duck/Fall (36x36).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6fb0d541d6e4e54face92c6a2e56a0d
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Duck/Hit (36x36).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b767d7d799f418844bf9365c14967141
+    m_Address: Assets/ThirdParty/Hat Pack/bunny.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7e710769c7a3034ba146667b3c53e53
+    m_Address: Assets/ThirdParty/Hat Pack/umbrella.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b83ef60c28599704ca1981eb527aec24
+    m_Address: Assets/ThirdParty/Hat Pack/robinhood.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9603f9f084cafc4fb0de3fcf2217ff0
+    m_Address: Assets/ThirdParty/Hat Pack/cowboy.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: badf6f9cf3e259c47a2031211fdf1867
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/AngryPig/Hit 1
+      (36x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb22e9cd7a3f50c41aa55c47dd8c2975
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/AngryPig/Idle (36x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcd51a0d10ff7684fa17b4421286c9f3
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 4b.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd42eff5cad303549ad96f8d1034bcfe
+    m_Address: Assets/ThirdParty/Hat Pack/viking.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be61b85d2bf764290b78433c04ceba05
+    m_Address: Assets/Prefabs/GoonCharacter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf4df7b2c9cda4c44b372e2b47a5cb8f
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Trunk/Idle (64x32).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c00878d6bf46a5a4a8734d0d8773f231
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c078262cfe23e5f45b0fdf215c6fa100
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Radish/Idle 1 (30x38).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0c4034ed469b224f8e361e6580df493
+    m_Address: Assets/ThirdParty/Hat Pack/spartan.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c311c0181264099438b146cd005da065
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Trunk/Bullet Pieces
+      (16x16).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c389d719c1036984ea7ca0d1f8a62a93
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Skull/Hit (52x54).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c66d2387ca5261948a0636cbe7b89bf6
+    m_Address: Assets/ThirdParty/Hat Pack/hats.psd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbe6519b5faf2e44bb0d23f57a9b238e
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_moss_purple.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc91064d7dfff474f8c5d4133a2982c4
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_rock_yellow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1c070b3909c48f449d850c642705e8f
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rocks/Rock1_Run
+      (38x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1c6b23882d5e254191a2f6b08ecd7c2
+    m_Address: Assets/ThirdParty/Hat Pack/pinwheel.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2de0d5d65de6fe4c819bae5f4e4c117
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bat/Flying (46x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d31af0b63d03f684c8b95139e35ca0a9
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/Background 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3a53dd56fb9a0444835a5fa1cdd14f6
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4f2f936f814df24fb7559370c465cdc
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Ghost/Idle (44x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d66a24f1a595be64bbd51c1a109278b1
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Radish/Leafs (16x16).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d700391178f61c3488cd257e7e7a81bf
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Plant/Bullet.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7495c5e35505cb47abb635609d9e934
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Skull/Orange Particle.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d83e1756e2ba8444b8f5945da9f7a2fe
+    m_Address: Assets/ThirdParty/Hat Pack/skeleton.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: daf3a34e52af9394d953d7b098baacc1
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Trunk/Run (64x32).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3531be27cb827743bac8ea66dae5bfd
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rino/Idle (52x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6fc6dc4e21030043abfa53d019c42ec
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Turtle/Spikes in
+      (44x26).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7cc2fad4013ab448a4063d876b18a47
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Snail/Shell Wall
+      Hit (38x24).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e89678eb5c542c946b9f7a5350474ac4
+    m_Address: Assets/Tiles/Ground Ice Sudden Death.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e919f8b19e6260d44b25ce176dd8ee66
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecc9c07b5beb1164dbb54c0d9847c7e2
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bunny/Jump.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecdfd8900a81d544cbd663d04322b012
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rocks/Rock1_Hit.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed57a13d678b6614fa329888af09bde2
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Skull/Idle 2 (52x54).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee823f92a337a654184013cf79fcd1b6
+    m_Address: Assets/ThirdParty/Shikashi's Fantasy Icons Pack v2/BG 3a.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f099c1d3323a34f45b93088206fb7171
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/slider.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f11b547750a4b1a4794915bbcbdfe633
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/button_rock_Play5.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2327ba2ad755d74682ebf3174417e5c
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Slime/Particles
+      (16x16).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5cacef1cf4f89f40a43f057681f4b47
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Bat/Hit (46x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f729d6acae7cd754a864abda75a4bbd7
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Chicken/Idle (32x34).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f760e8c2f86be0a46a16e0a7a5bfe8ed
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_moss_green.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7ea70eedecbfe34a93819309bcaf901
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Rocks/Rock2_Idle
+      (32x28).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f817ba5aabd773e4f914480bdd62d0c8
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Trunk/Bullet.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f819a6beb22c04c8d9f8222f930252b5
+    m_Address: Assets/Beamable/DefaultAssets/currency/icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f83657d63880f4a4097f6f7366cde181
+    m_Address: Assets/ThirdParty/Hat Pack/tiara.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f85ccb91ff4f71d44808845949b0798b
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Plant/Attack (44x42).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa1ecbda6ed0a734d8796079e7e3974a
+    m_Address: Assets/ThirdParty/StoneUI/OtherUI_2-1K/button_rock_Play.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fac72b5f316cc55498ceadbb7eca4e1a
+    m_Address: Assets/ThirdParty/Hat Pack/fireman.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbef8127a0a451441b915929eb18ff11
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_rock_blue.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc150f752c147824393e280532c6829d
+    m_Address: Assets/Tiles/Ground Empty.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd0e99dd8f61b294bb89fdbe1ce492bd
+    m_Address: Assets/ThirdParty/Hat Pack/hardHat.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe0d305c386c24f49b22110bd836c48d
+    m_Address: Assets/ThirdParty/Pixel Adventure 2/Assets/Enemies/Ghost/Hit (44x30).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fee18a4688275264a81f0881b66a82f5
+    m_Address: Assets/ThirdParty/StoneUI/Buttons_128x128/button_moss_grey.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffbc22e2177df8347b3357e0cac3028f
+    m_Address: Assets/ThirdParty/Hat Pack/redBonnet.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aec1ff26c401e4239b4d3e71cd156ef2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e58c2edd20dbf41a1b9499a65340b1c1, type: 2}
+    - {fileID: 11400000, guid: cd05b54e0d9e141d8b0a2569488bb418, type: 2}

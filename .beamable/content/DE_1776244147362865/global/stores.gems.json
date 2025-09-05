@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "listings": {
+      "$links": [
+        "listings.gem_bag",
+        "listings.gem_chest"
+      ]
+    },
+    "showInactiveListings": {
+      "data": false
+    },
+    "title": {
+      "data": "Gems"
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

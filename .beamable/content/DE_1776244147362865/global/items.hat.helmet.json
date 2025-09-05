@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": true
+      }
+    },
+    "Display": {
+      "data": "Helmet"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "703f1cbc469130646883beb3e44c0dd4",
+        "subObjectName": ""
+      }
+    },
+    "Offset": {
+      "data": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    "Rotation": {
+      "data": 0
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

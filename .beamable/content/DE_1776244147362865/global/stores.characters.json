@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "listings": {
+      "$links": [
+        "listings.tucan",
+        "listings.fatbird",
+        "listings.chicken",
+        "listings.bee",
+        "listings.chameleon",
+        "listings.mushroom",
+        "listings.turtle"
+      ]
+    },
+    "showInactiveListings": {
+      "data": false
+    },
+    "title": {
+      "data": "characters"
+    }
+  },
+  "tags": [],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

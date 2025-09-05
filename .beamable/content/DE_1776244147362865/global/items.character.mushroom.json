@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": false
+      }
+    },
+    "Display": {
+      "data": "Mushroom"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "a6465882e447a7346b1d80709f6094be",
+        "subObjectName": "Idle (32x32)_0"
+      }
+    },
+    "Prefab": {
+      "data": {
+        "referenceKey": "a8cfea62a6d47e848a5184acd31f104d",
+        "subObjectName": ""
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

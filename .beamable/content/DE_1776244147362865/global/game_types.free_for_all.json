@@ -1,0 +1,75 @@
+{
+  "properties": {
+    "leaderboardUpdates": {
+      "data": [
+        {
+          "leaderboard": "leaderboards.game",
+          "scoringAlgorithm": {
+            "algorithm": "MultiplayerElo",
+            "options": []
+          }
+        }
+      ]
+    },
+    "maxWaitDurationSecs": {
+      "data": 30
+    },
+    "numericRules": {
+      "data": []
+    },
+    "rewards": {
+      "data": [
+        {
+          "endRank": 1,
+          "rewards": [
+            {
+              "amount": 15,
+              "name": "currency.gems",
+              "type": "Currency"
+            }
+          ],
+          "startRank": 1
+        },
+        {
+          "endRank": 2,
+          "rewards": [
+            {
+              "amount": 10,
+              "name": "currency.gems",
+              "type": "Currency"
+            }
+          ],
+          "startRank": 2
+        },
+        {
+          "endRank": 4,
+          "rewards": [
+            {
+              "amount": 5,
+              "name": "currency.gems",
+              "type": "Currency"
+            }
+          ],
+          "startRank": 3
+        }
+      ]
+    },
+    "stringRules": {
+      "data": []
+    },
+    "teams": {
+      "data": [
+        {
+          "maxPlayers": 4,
+          "minPlayers": 2,
+          "name": "Free For All"
+        }
+      ]
+    },
+    "waitAfterMinReachedSecs": {
+      "data": 30
+    }
+  },
+  "tags": [],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

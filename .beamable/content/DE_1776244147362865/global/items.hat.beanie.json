@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": false
+      }
+    },
+    "Display": {
+      "data": "Beani"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "1a8646fab57dc21428dd8814d3bc2de6",
+        "subObjectName": ""
+      }
+    },
+    "Offset": {
+      "data": {
+        "x": 0,
+        "y": 0.02
+      }
+    },
+    "Rotation": {
+      "data": -50
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

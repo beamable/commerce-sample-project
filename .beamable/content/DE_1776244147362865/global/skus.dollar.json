@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "description": {
+      "data": "A dollar"
+    },
+    "productIds": {
+      "data": {
+        "googleplay": "insert.your.google.product.id"
+      }
+    },
+    "realPrice": {
+      "data": 99
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

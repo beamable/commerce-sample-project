@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "description": {
+      "data": "Two dollars"
+    },
+    "productIds": {
+      "data": {
+        "googleplay": "insert.your.google.product.id2"
+      }
+    },
+    "realPrice": {
+      "data": 199
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": false
+      }
+    },
+    "Display": {
+      "data": "Tucan"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "9f8778d0d44049a459735824f24042e0",
+        "subObjectName": "Flying (32x32)_7"
+      }
+    },
+    "Prefab": {
+      "data": {
+        "referenceKey": "19ba8431b163649d5807b6356c5aac8f",
+        "subObjectName": ""
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}

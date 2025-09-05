@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "clientPermission": {
+      "data": {
+        "write_self": false
+      }
+    },
+    "Display": {
+      "data": "Turtle"
+    },
+    "icon": {
+      "data": {
+        "referenceKey": "81599edd816625a4394b87c55bc6d552",
+        "subObjectName": "Idle 1 (44x26)_0"
+      }
+    },
+    "Prefab": {
+      "data": {
+        "referenceKey": "668fc83d059c8ae43bc047e09cba2c12",
+        "subObjectName": ""
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68ad6fe92be3b2152176d5cf"
+}
