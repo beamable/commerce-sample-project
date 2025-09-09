@@ -434,11 +434,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5a09a10d6428f4babbf5d19546659fed
-    m_Address: Assets/Prefabs/CharacterSelectionPreview.renderTexture
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5a75d544e1c05b94397497ee4d66e348
     m_Address: Assets/ThirdParty/Hat Pack/baseballCap.png
     m_ReadOnly: 0
@@ -635,6 +630,11 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8c370d3f7e6462549af62dcef01cf86e
     m_Address: Assets/ThirdParty/Hat Pack/antlers.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c3bc20cf246a4f26bcc1c9d4eedec5e
+    m_Address: Assets/Prefabs/CharacterSelectionPreview.renderTexture
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

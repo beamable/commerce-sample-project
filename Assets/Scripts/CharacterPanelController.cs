@@ -1,3 +1,4 @@
+using System;
 using Beamable;
 using System.Linq;
 using System.Threading.Tasks;
@@ -208,37 +209,72 @@ public class CharacterPanelController : MonoBehaviour
 
 	public async Task TryBuyCharacter(CharacterOptionBuyBehaviour characterBuyOption, CharacterContent character, PlayerListingView listing, bool canAfford)
 	{
+		Debug.Log($"[TryBuyCharacter] Starting purchase for {character.Display}, canAfford={canAfford}");
+		
 		_beamContext = BeamContext.Default;
 		await _beamContext.OnReady;
-		if (!canAfford) return; // TODO: Show option to buy more soft-currency...
-
-		await _beamContext.Api.CommerceService.Purchase(CharacterShopRef.Id, listing.symbol);
-
-		// select the thing...
-		characterBuyOption.CompletePurchase();
-		characterBuyOption.CharacterOptionBehaviour.OnSelected.RemoveAllListeners();
-		characterBuyOption.CharacterOptionBehaviour.OnSelected.AddListener(() =>
+		Debug.Log("[TryBuyCharacter] BeamContext ready");
+	
+		if (!canAfford) 
 		{
+			Debug.LogWarning("[TryBuyCharacter] Player cannot afford this character");
+			return; // TODO: Show option to buy more soft-currency...
+		}
+	
+		try
+		{
+			Debug.Log($"[TryBuyCharacter] Attempting purchase: {CharacterShopRef.Id}, {listing.symbol}");
+			await _beamContext.Api.CommerceService.Purchase(CharacterShopRef.Id, listing.symbol);
+			Debug.Log("[TryBuyCharacter] Purchase completed");
+	
+			// select the thing...
+			characterBuyOption.CompletePurchase();
+			characterBuyOption.CharacterOptionBehaviour.OnSelected.RemoveAllListeners();
+			characterBuyOption.CharacterOptionBehaviour.OnSelected.AddListener(() =>
+			{
+				SelectCharacter(characterBuyOption.CharacterOptionBehaviour);
+			});
 			SelectCharacter(characterBuyOption.CharacterOptionBehaviour);
-		});
-		SelectCharacter(characterBuyOption.CharacterOptionBehaviour);
+			Debug.Log("[TryBuyCharacter] Character selected after purchase");
+		}
+		catch (Exception ex)
+		{
+			Debug.LogError($"[TryBuyCharacter] Exception during purchase: {ex}");
+		}
 	}
-
+	
 	public async Task TryBuyHat(HatOptionBuyBehaviour hatBuyOption, HatContent hat, PlayerListingView listing, bool canAfford)
 	{
+		Debug.Log($"[TryBuyHat] Starting purchase for {hat.Display}, canAfford={canAfford}");
+		
 		_beamContext = BeamContext.Default;
-		if (!canAfford) return; // TODO: Show option to buy more soft-currency...
-
-		await _beamContext.Api.CommerceService.Purchase(HatShopRef.Id, listing.symbol);
-
-		// select the thing...
-		hatBuyOption.CompletePurchase();
-		hatBuyOption.HatOptionBehaviour.OnSelected.RemoveAllListeners();
-		hatBuyOption.HatOptionBehaviour.OnSelected.AddListener(() =>
+	
+		if (!canAfford) 
 		{
+			Debug.LogWarning("[TryBuyHat] Player cannot afford this hat");
+			return;
+		}
+	
+		try
+		{
+			Debug.Log($"[TryBuyHat] Attempting purchase: {HatShopRef.Id}, {listing.symbol}");
+			await _beamContext.Api.CommerceService.Purchase(HatShopRef.Id, listing.symbol);
+			Debug.Log("[TryBuyHat] Purchase completed");
+	
+			// select the thing...
+			hatBuyOption.CompletePurchase();
+			hatBuyOption.HatOptionBehaviour.OnSelected.RemoveAllListeners();
+			hatBuyOption.HatOptionBehaviour.OnSelected.AddListener(() =>
+			{
+				SelectHat(hatBuyOption.HatOptionBehaviour);
+			});
 			SelectHat(hatBuyOption.HatOptionBehaviour);
-		});
-		SelectHat(hatBuyOption.HatOptionBehaviour);
+			Debug.Log("[TryBuyHat] Hat selected after purchase");
+		}
+		catch (Exception ex)
+		{
+			Debug.LogError($"[TryBuyHat] Exception during purchase: {ex}");
+		}
 	}
 
 	public void ShowCharacters()

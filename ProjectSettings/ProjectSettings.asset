@@ -183,7 +183,7 @@ PlayerSettings:
   CreateWallpaper: 0
   androidSplitApplicationBinary: 0
   keepLoadedShadersAlive: 0
-  StripUnusedMeshComponents: 0
+  StripUnusedMeshComponents: 1
   strictShaderVariantMatching: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
@@ -771,6 +771,7 @@ PlayerSettings:
   webWasm2023: 0
   scriptingDefineSymbols:
     Android: BEAMABLE_PURCHASING
+    Standalone: BEAMABLE_PURCHASING
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
