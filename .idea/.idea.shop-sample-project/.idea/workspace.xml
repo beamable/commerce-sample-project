@@ -5,23 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30c4c8dd-15eb-42da-8271-28fc71341b1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/.cmake/api/v1/reply/cache-v2-7ffab46a0fc3c18a3b33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-86e0187d06dd889426b4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/.cmake/api/v1/reply/index-2025-09-05T11-56-11-0969.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/configure_fingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/4g4l6i35/arm64-v8a/configure_fingerprint.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Resources/AddressablesLinker/link.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Beamable/Resources/AddressablesLinker/link.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CharacterSelectionPreview.renderTexture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CharacterSelectionPreview.renderTexture.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/botprofile.standard.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/botprofile.standard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/currency.gems.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/currency.gems.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/emails.password_update.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/emails.password_update.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/game_types.bots_only.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/game_types.bots_only.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/game_types.free_for_all.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/game_types.free_for_all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.bee.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.bee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.chameleon.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.chameleon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.chicken.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.chicken.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.fatbird.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.fatbird.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.goon.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.goon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.mushroom.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.mushroom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.tucan.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.tucan.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.turtle.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.character.turtle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.armyhat.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.armyhat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.baseball.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.baseball.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.beanie.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.beanie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.cowboy.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.cowboy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.crown.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.crown.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.fez.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.fez.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.helmet.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.helmet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.tophat.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.tophat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.viking.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/items.hat.viking.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/leaderboards.default.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/leaderboards.default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/leaderboards.game.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/leaderboards.game.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.armyhat.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.armyhat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.baseball.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.baseball.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.beanie.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.beanie.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.bee.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.bee.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.chameleon.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.chameleon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.chicken.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.chicken.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.cowboy.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.cowboy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.crown.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.crown.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.fatbird.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.fatbird.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.fez.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.fez.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.gem_bag.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.gem_bag.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.gem_chest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.gem_chest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.mushroom.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.mushroom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.tophat.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.tophat.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.tucan.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.tucan.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.turtle.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.turtle.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.viking.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/listings.viking.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/skus.dollar.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/skus.dollar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/skus.two_dollars.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/skus.two_dollars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/stores.characters.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/stores.characters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/stores.gems.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/stores.gems.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/stores.hats.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/stores.hats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/tournaments.default.json" beforeDir="false" afterPath="$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/tournaments.default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.shop-sample-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.shop-sample-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/tools/release/arm64-v8a/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/tools/release/arm64-v8a/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content/content-migration-notice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content/content-migration-notice.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content/currency.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content/items.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content/items/character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content/items/hat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content/listings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content/skus.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Editor/Content/stores.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Beamable/Resources/ContentConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Beamable/Resources/ContentConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CharacterSelectionPreview.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CharacterSelectionPreview.renderTexture" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Inventory.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Inventory.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterPanelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GemListingBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GemListingBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GemStoreController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GemStoreController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +87,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GeorgianaIonUPD&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/beamable/commerce-sample-project.git&quot;,
+    &quot;accountId&quot;: &quot;1f99c2db-2517-48df-8245-4a2114e9684b&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/botprofile.standard.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.beamable/content/DE_1776244147362865/global/currency.gems.json" root0="FORCE_HIGHLIGHTING" />
@@ -44,13 +111,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/UI/EnemyPanelController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/UI/PlayerRankBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GemStoreController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.beamable@65edb16f1aef/Common/Runtime/Promise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utilities/Registrations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.beamable@65edb16f1aef/Common/Runtime/Modules/Shop/ListingContent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.beamable@65edb16f1aef/Common/Runtime/Promise.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.beamable@65edb16f1aef/Editor/Toolbar/MenuItems/BeamableConfigurationManagerMenuItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.beamable@65edb16f1aef/Runtime/Core/Config/Beamable.Config.asmdef" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.beamable@65edb16f1aef/Runtime/Modules/Purchasing/Steam/SteamStore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.beamable@65edb16f1aef/Runtime/Modules/Purchasing/UnityBeamablePurchaser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.beamable@65edb16f1aef/Tests/Runtime/Beamable/MockBeamableApi.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@93f5f173cccb/Editor/UnityPurchasingEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@93f5f173cccb/Runtime/Purchasing/Utilites/ILoggerExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@03407c6d8751/Tests/Runtime/UGUI/Canvas/CanvasResizeCorrectlyForRenderTexture.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -78,7 +146,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.39f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -90,7 +158,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.39f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.2.6f2/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -151,7 +219,11 @@
       <workItem from="1757066398035" duration="7756000" />
       <workItem from="1757313976220" duration="13275000" />
       <workItem from="1757334250963" duration="366000" />
-      <workItem from="1757338075958" duration="3372000" />
+      <workItem from="1757338075958" duration="5456000" />
+      <workItem from="1759844241508" duration="1219000" />
+      <workItem from="1760346775984" duration="11221000" />
+      <workItem from="1760513858578" duration="8612000" />
+      <workItem from="1761665877392" duration="6002000" />
     </task>
     <servers />
   </component>

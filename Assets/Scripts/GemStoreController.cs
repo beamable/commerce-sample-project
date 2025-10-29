@@ -75,10 +75,11 @@ public class GemStoreController : MonoBehaviour
 
     async Task SetupListings()
     {
+        Debug.Log("[SetupListings] Initializing listings");
         _beamContext = BeamContext.Default;
         await _beamContext.OnReady;
         Debug.Log("[SetupListings] BeamContext ready");
-    
+
         var gemStore = await GemStoreRef.Resolve();
         var storeView = await _beamContext.Api.CommerceService.GetCurrent(gemStore.Id);
         Debug.Log($"[SetupListings] Loaded {storeView.listings.Count} listings");

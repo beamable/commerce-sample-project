@@ -22,6 +22,7 @@ namespace Hats.Game.UI
 
       public void SetFor(PlayerListingView listingView)
       {
+         Debug.Log($"[GemListing] Price text for {listingView.symbol}: '{listingView.offer.price.GetLocalizedText()}'");
          CostText.text = listingView.offer.price.GetLocalizedText();
          AmountText.text = listingView.offer.obtainCurrency[0].amount.ToString();
       }
