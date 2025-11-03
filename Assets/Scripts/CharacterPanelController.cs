@@ -105,42 +105,32 @@ public class CharacterPanelController : MonoBehaviour
 {
     _beamContext = BeamContext.Default;
     await _beamContext.OnReady;
-    Debug.Log("[CharacterShop] BeamContext ready");
 
     var shop = await _beamContext.Api.CommerceService.GetCurrent(CharacterShopRef.Id);
-    Debug.Log($"[CharacterShop] Shop loaded with {shop.listings.Count} listings");
 
     var playerCharacters = await PlayerInventory.GetAvailableCharacters();
-    Debug.Log($"[CharacterShop] Player already has {playerCharacters.Count} characters");
 
     foreach (var listing in shop.listings)
     {
-        Debug.Log($"[CharacterShop] Checking listing with {listing.offer.obtainItems.Count} items");
-
         var hasOneItem = listing.offer.obtainItems.Count == 1;
         var hasAnyCurrency = listing.offer.obtainCurrency.Count > 0;
         if (!hasOneItem || hasAnyCurrency)
         {
-            Debug.Log("[CharacterShop] Skipping listing (not one item or has currency)");
             continue;
         }
 
         var itemContentId = listing.offer.obtainItems[0].contentId;
         var isCharacter = itemContentId.StartsWith("items.character");
-        Debug.Log($"[CharacterShop] Listing item={itemContentId}, isCharacter={isCharacter}");
         if (!isCharacter) continue;
 
         var hasCharacterAlready = playerCharacters.Any(character => character.Id.Equals(itemContentId));
-        Debug.Log($"[CharacterShop] Already owned? {hasCharacterAlready}");
         if (hasCharacterAlready) continue;
 
         var isCurrencyListing = listing.offer.price.type.Equals("currency");
-        Debug.Log($"[CharacterShop] Price type={listing.offer.price.type}, isCurrencyListing={isCurrencyListing}");
         if (!isCurrencyListing) continue;
 
         var currencyRef = new CurrencyRef(listing.offer.price.symbol);
         var currencyAmount = await _beamContext.Api.InventoryService.GetCurrency(currencyRef);
-        Debug.Log($"[CharacterShop] Currency {listing.offer.price.symbol} amount={currencyAmount}, cost={listing.offer.price.amount}");
 
         var canAfford = listing.offer.price.IsFree || currencyAmount >= listing.offer.price.amount;
 
@@ -148,7 +138,6 @@ public class CharacterPanelController : MonoBehaviour
         var instance = Instantiate(CharacterOptionBuyBehaviour, CharacterOptionContainer);
         var characterRef = new CharacterRef(listing.offer.obtainItems[0].contentId);
         var character = await characterRef.Resolve();
-        Debug.Log($"[CharacterShop] Resolved character {character.name}");
 
         var currencyContent = await currencyRef.Resolve();
         var currencyIcon = await currencyContent.icon.LoadSprite();
@@ -209,11 +198,8 @@ public class CharacterPanelController : MonoBehaviour
 
 	public async Task TryBuyCharacter(CharacterOptionBuyBehaviour characterBuyOption, CharacterContent character, PlayerListingView listing, bool canAfford)
 	{
-		Debug.Log($"[TryBuyCharacter] Starting purchase for {character.Display}, canAfford={canAfford}");
-		
 		_beamContext = BeamContext.Default;
 		await _beamContext.OnReady;
-		Debug.Log("[TryBuyCharacter] BeamContext ready");
 	
 		if (!canAfford) 
 		{
@@ -223,9 +209,7 @@ public class CharacterPanelController : MonoBehaviour
 	
 		try
 		{
-			Debug.Log($"[TryBuyCharacter] Attempting purchase: {CharacterShopRef.Id}, {listing.symbol}");
 			await _beamContext.Api.CommerceService.Purchase(CharacterShopRef.Id, listing.symbol);
-			Debug.Log("[TryBuyCharacter] Purchase completed");
 	
 			// select the thing...
 			characterBuyOption.CompletePurchase();
@@ -235,7 +219,6 @@ public class CharacterPanelController : MonoBehaviour
 				SelectCharacter(characterBuyOption.CharacterOptionBehaviour);
 			});
 			SelectCharacter(characterBuyOption.CharacterOptionBehaviour);
-			Debug.Log("[TryBuyCharacter] Character selected after purchase");
 		}
 		catch (Exception ex)
 		{
@@ -245,8 +228,6 @@ public class CharacterPanelController : MonoBehaviour
 	
 	public async Task TryBuyHat(HatOptionBuyBehaviour hatBuyOption, HatContent hat, PlayerListingView listing, bool canAfford)
 	{
-		Debug.Log($"[TryBuyHat] Starting purchase for {hat.Display}, canAfford={canAfford}");
-		
 		_beamContext = BeamContext.Default;
 	
 		if (!canAfford) 
@@ -257,9 +238,7 @@ public class CharacterPanelController : MonoBehaviour
 	
 		try
 		{
-			Debug.Log($"[TryBuyHat] Attempting purchase: {HatShopRef.Id}, {listing.symbol}");
 			await _beamContext.Api.CommerceService.Purchase(HatShopRef.Id, listing.symbol);
-			Debug.Log("[TryBuyHat] Purchase completed");
 	
 			// select the thing...
 			hatBuyOption.CompletePurchase();
@@ -269,7 +248,6 @@ public class CharacterPanelController : MonoBehaviour
 				SelectHat(hatBuyOption.HatOptionBehaviour);
 			});
 			SelectHat(hatBuyOption.HatOptionBehaviour);
-			Debug.Log("[TryBuyHat] Hat selected after purchase");
 		}
 		catch (Exception ex)
 		{

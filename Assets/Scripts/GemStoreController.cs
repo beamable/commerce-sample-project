@@ -75,14 +75,11 @@ public class GemStoreController : MonoBehaviour
 
     async Task SetupListings()
     {
-        Debug.Log("[SetupListings] Initializing listings");
         _beamContext = BeamContext.Default;
         await _beamContext.OnReady;
-        Debug.Log("[SetupListings] BeamContext ready");
 
         var gemStore = await GemStoreRef.Resolve();
         var storeView = await _beamContext.Api.CommerceService.GetCurrent(gemStore.Id);
-        Debug.Log($"[SetupListings] Loaded {storeView.listings.Count} listings");
     
         foreach (var listing in storeView.listings)
         {
@@ -98,7 +95,6 @@ public class GemStoreController : MonoBehaviour
             var isGem = currencyContentId.StartsWith(CurrencyGemId);
             if (!isGem) continue;
     
-            Debug.Log($"[SetupListings] Setting up listing {listing.symbol} for gem {currencyContentId}");
     
             var listingPrefab = DefaultGemListingPrefab;
             if (listing.ClientData.TryGetValue(PrefabOverrideKey, out var prefabOverride))
@@ -119,12 +115,10 @@ public class GemStoreController : MonoBehaviour
             instance.SetFor(listing);
             instance.OnSelected.AddListener(async () =>
             {
-                Debug.Log($"[SetupListings] Purchase button clicked for {listing.symbol}");
                 try
                 {
                     var purchaser = await _beamContext.Api.BeamableIAP;
                     await purchaser.StartPurchase($"{listing.symbol}:{GemStoreRef.Id}", listing.offer.price.symbol);
-                    Debug.Log("[SetupListings] Purchase completed");
                 }
                 catch (Exception ex)
                 {
