@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "permissions": {
+      "data": {
+        "write_self": false
+      }
+    }
+  },
+  "tags": [
+    "base"
+  ],
+  "referenceManifestId": "68db8bff68bf6a49ca776400"
+}

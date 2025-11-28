@@ -8,30 +8,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.ContainerWindow
-  m_PixelRect:
-    serializedVersion: 2
-    x: 2482
-    y: -120
-    width: 725
-    height: 578
-  m_ShowMode: 0
-  m_Title: Build Profiles
-  m_RootView: {fileID: 4}
-  m_MinSize: {x: 725, y: 426}
-  m_MaxSize: {x: 4000, y: 4026}
-  m_Maximized: 0
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -41,65 +17,14 @@ MonoBehaviour:
     x: 1470
     y: -186
     width: 1920
-    height: 942
+    height: 1027
   m_ShowMode: 4
-  m_Title: Inspector
-  m_RootView: {fileID: 5}
+  m_Title: Beam Account
+  m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: BuildProfileWindow
-  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.DockArea
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 725
-    height: 578
-  m_MinSize: {x: 725, y: 426}
-  m_MaxSize: {x: 4000, y: 4026}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.SplitView
-  m_Children:
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 725
-    height: 578
-  m_MinSize: {x: 725, y: 426}
-  m_MaxSize: {x: 4000, y: 4026}
-  vertical: 0
-  controlID: 245
-  draggingID: 0
---- !u!114 &5
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,22 +37,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
-  - {fileID: 8}
-  - {fileID: 7}
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1920
-    height: 942
+    height: 1027
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 36
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &6
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &7
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,11 +90,89 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 922
+    y: 1007
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 36
+    width: 1920
+    height: 971
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 75
+  draggingID: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1317
+    height: 971
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 76
+  draggingID: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1317
+    height: 643
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 77
+  draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,23 +182,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 14}
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 36
-    width: 1920
-    height: 886
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 19
-  draggingID: 0
+    y: 0
+    width: 423
+    height: 643
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,23 +208,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: AccountWindow
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 13}
+  m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 423
     y: 0
-    width: 1058
-    height: 886
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 108
-  draggingID: 0
+    width: 894
+    height: 643
+  m_MinSize: {x: 602, y: 626}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 16}
+  - {fileID: 13}
+  - {fileID: 12}
+  m_Selected: 3
+  m_LastSelected: 2
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,106 +237,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 11}
-  - {fileID: 12}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1058
-    height: 585
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 109
-  draggingID: 0
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 239
-    height: 585
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+    y: 643
+    width: 1317
+    height: 328
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 239
-    y: 0
-    width: 819
-    height: 585
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 16}
   - {fileID: 18}
-  - {fileID: 19}
-  - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 3
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 585
-    width: 1058
-    height: 301
-  m_MinSize: {x: 101, y: 126}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 22}
-  m_Panes:
-  - {fileID: 21}
-  - {fileID: 22}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &14
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -345,18 +270,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1058
+    x: 1317
     y: 0
-    width: 862
-    height: 886
+    width: 603
+    height: 971
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 23}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &15
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -365,22 +290,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 15004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 11500000, guid: bebebe536a6748f59db0465863a564ba, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: UnityEditor.BuildProfileModule.dll::UnityEditor.Build.Profile.BuildProfileWindow
-  m_MinSize: {x: 725, y: 400}
+  m_EditorClassIdentifier: Unity.Beamable.Editor::Beamable.Editor.Accounts.AccountWindow
+  m_MinSize: {x: 600, y: 600}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Build Profiles
-    m_Image: {fileID: 0}
+    m_Text: Beam Account
+    m_Image: {fileID: 2800000, guid: 3b099ea9b7e0b487fa0e667d3e931902, type: 3}
     m_Tooltip: 
-    m_TextWithWhitespace: "Build Profiles\u200B"
+    m_TextWithWhitespace: "Beam Account\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 26
-    width: 725
-    height: 552
+    x: 424
+    y: 24
+    width: 892
+    height: 617
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -392,7 +317,1021 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
---- !u!114 &16
+  cli:
+    latestConfig:
+      host: https://api.beamable.com
+      cid: 1774561898395648
+      pid: DE_1776244147362863
+      configPath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable
+    latestAccount:
+      id: 1775278141704192
+      email: georgiana.ion@updivision.com
+      language: en
+      scopes:
+      - '*'
+      thirdPartyAppAssociations: []
+      deviceIds: []
+      external: []
+      roleString: admin
+      roles: []
+      tokenCid: 1774561898395648
+      tokenPid: DE_1776244147362863
+      accessToken: d19933ae-8de5-4f21-9dfe-ed2f79bc4751
+      refreshToken: 6eb905a7-0262-44bb-8395-febf0ffe30b2
+      tokenExpiresIn: 180000
+    latestRealmInfo:
+      CustomerAlias: georgiana-ion
+      Cid: 1774561898395648
+      VisibleRealms:
+      - Cid: 1774561898395648
+        Pid: DE_1774561898395651
+        ParentPid: 
+        ProjectName: LeaderboardSampleProject-prod
+        RealmName: LeaderboardSampleProject-prod
+        RealmSecret: 33ddeb19-18e2-4e17-9507-ecc6dba241dc
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1774561898395650
+        ParentPid: DE_1774561898395651
+        ProjectName: LeaderboardSampleProject-prod
+        RealmName: LeaderboardSampleProject-staging
+        RealmSecret: 495fbc75-bcf5-4faa-a95a-fb01980a3082
+        IsDev: 0
+        IsStaging: 1
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1774561898395649
+        ParentPid: DE_1774561898395650
+        ProjectName: LeaderboardSampleProject-prod
+        RealmName: LeaderboardSampleProject-dev
+        RealmSecret: 918991e6-b17c-494a-85ae-f61369f65bc7
+        IsDev: 1
+        IsStaging: 0
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1776244147362845
+        ParentPid: 
+        ProjectName: PaymentSampleRepro-prod
+        RealmName: PaymentSampleRepro-prod
+        RealmSecret: 58ff1039-a100-4f96-9a2c-1e712ae7ec71
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1776244147362844
+        ParentPid: DE_1776244147362845
+        ProjectName: PaymentSampleRepro-prod
+        RealmName: PaymentSampleRepro-staging
+        RealmSecret: 35ef0f3e-1203-4cde-abdf-bc3be13d8723
+        IsDev: 0
+        IsStaging: 1
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1776244147362843
+        ParentPid: DE_1776244147362844
+        ProjectName: PaymentSampleRepro-prod
+        RealmName: PaymentSampleRepro-dev
+        RealmSecret: a6b57c09-3b2b-4483-b92a-9caa54426f2a
+        IsDev: 1
+        IsStaging: 0
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1776244147362865
+        ParentPid: 
+        ProjectName: SampleSandbox-prod
+        RealmName: SampleSandbox-prod
+        RealmSecret: f50f98af-ee0e-4fd0-aa24-86d18386f058
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1776244147362864
+        ParentPid: DE_1776244147362865
+        ProjectName: SampleSandbox-prod
+        RealmName: SampleSandbox-staging
+        RealmSecret: 5eb60ee2-944f-42d4-ac32-16c055d187c7
+        IsDev: 0
+        IsStaging: 1
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1776244147362863
+        ParentPid: DE_1776244147362864
+        ProjectName: SampleSandbox-prod
+        RealmName: SampleSandbox-dev
+        RealmSecret: bd60e0e7-b1f8-4765-8992-b6d531c93f36
+        IsDev: 1
+        IsStaging: 0
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1791322956717098
+        ParentPid: 
+        ProjectName: SampleToBeDeleted-prod
+        RealmName: SampleToBeDeleted-prod
+        RealmSecret: a30c9789-7b4c-4020-b703-c3c51276d61b
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1791323023985708
+        ParentPid: 
+        ProjectName: ToBeDeleted-prod
+        RealmName: ToBeDeleted-prod
+        RealmSecret: 3d005367-7f39-4479-9edf-3363553a34f6
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1791323023985707
+        ParentPid: DE_1791323023985708
+        ProjectName: ToBeDeleted-prod
+        RealmName: ToBeDeleted-staging
+        RealmSecret: 100e8e0a-ef2f-4178-9986-7634f44a3520
+        IsDev: 0
+        IsStaging: 1
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1791323023985706
+        ParentPid: DE_1791323023985707
+        ProjectName: ToBeDeleted-prod
+        RealmName: ToBeDeleted-dev
+        RealmSecret: e50dd4cd-44e9-40d8-b561-263bd05599e0
+        IsDev: 1
+        IsStaging: 0
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1791323023985751
+        ParentPid: 
+        ProjectName: UnrealGame-prod
+        RealmName: UnrealGame-prod
+        RealmSecret: 8fa7706b-5a35-4422-8f62-0c242427fca0
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1791323023985750
+        ParentPid: DE_1791323023985751
+        ProjectName: UnrealGame-prod
+        RealmName: UnrealGame-staging
+        RealmSecret: eba3ba76-69a1-4252-b218-2c2dcfe53f3d
+        IsDev: 0
+        IsStaging: 1
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1791323023985749
+        ParentPid: DE_1791323023985750
+        ProjectName: UnrealGame-prod
+        RealmName: UnrealGame-dev
+        RealmSecret: 095c383d-7f7f-4d05-a7a8-5226d96fce3e
+        IsDev: 1
+        IsStaging: 0
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1850756271339554
+        ParentPid: 
+        ProjectName: Okidoke-prod
+        RealmName: Okidoke-prod
+        RealmSecret: 1a22ebe5-a709-4d5c-b101-b80be1541294
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1850756271339553
+        ParentPid: DE_1850756271339554
+        ProjectName: Okidoke-prod
+        RealmName: Okidoke-staging
+        RealmSecret: 198b29d8-f590-43cf-bf6b-b2d248de1b58
+        IsDev: 0
+        IsStaging: 1
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1850756271339552
+        ParentPid: DE_1850756271339553
+        ProjectName: Okidoke-prod
+        RealmName: Okidoke-dev
+        RealmSecret: e3cd4687-9a92-4463-a966-0a9dd34e905a
+        IsDev: 1
+        IsStaging: 0
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1934633364747312
+        ParentPid: 
+        ProjectName: CommerceSampleProject-prod
+        RealmName: CommerceSampleProject-prod
+        RealmSecret: d4f87983-88f8-4936-ab51-d92ca5a86c09
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1934633364747311
+        ParentPid: DE_1934633364747312
+        ProjectName: CommerceSampleProject-prod
+        RealmName: CommerceSampleProject-staging
+        RealmSecret: 32f0cbf4-6b52-4ee2-b812-715607f732a4
+        IsDev: 0
+        IsStaging: 1
+        IsProduction: 0
+      - Cid: 1774561898395648
+        Pid: DE_1934633364747310
+        ParentPid: DE_1934633364747311
+        ProjectName: CommerceSampleProject-prod
+        RealmName: CommerceSampleProject-dev
+        RealmSecret: 20110004-f6a3-4b0b-9714-e1e68e0c80ce
+        IsDev: 1
+        IsStaging: 0
+        IsProduction: 0
+    latestGames:
+      VisibleGames:
+      - Cid: 1774561898395648
+        Pid: DE_1774561898395651
+        ParentPid: 
+        ProjectName: LeaderboardSampleProject-prod
+        RealmName: LeaderboardSampleProject-prod
+        RealmSecret: 
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1776244147362845
+        ParentPid: 
+        ProjectName: PaymentSampleRepro-prod
+        RealmName: PaymentSampleRepro-prod
+        RealmSecret: 
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1776244147362865
+        ParentPid: 
+        ProjectName: SampleSandbox-prod
+        RealmName: SampleSandbox-prod
+        RealmSecret: 
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1791322956717098
+        ParentPid: 
+        ProjectName: SampleToBeDeleted-prod
+        RealmName: SampleToBeDeleted-prod
+        RealmSecret: 
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1791323023985708
+        ParentPid: 
+        ProjectName: ToBeDeleted-prod
+        RealmName: ToBeDeleted-prod
+        RealmSecret: 
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1791323023985751
+        ParentPid: 
+        ProjectName: UnrealGame-prod
+        RealmName: UnrealGame-prod
+        RealmSecret: 
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1850756271339554
+        ParentPid: 
+        ProjectName: Okidoke-prod
+        RealmName: Okidoke-prod
+        RealmSecret: 
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+      - Cid: 1774561898395648
+        Pid: DE_1934633364747312
+        ParentPid: 
+        ProjectName: CommerceSampleProject-prod
+        RealmName: CommerceSampleProject-prod
+        RealmSecret: 
+        IsDev: 0
+        IsStaging: 0
+        IsProduction: 1
+    latestAlias: georgiana-ion
+    latestLoginError: 
+    latestUser:
+      id: 1775278141704192
+      email: georgiana.ion@updivision.com
+      language: 
+      scopes: []
+      thirdPartyAppAssociations: []
+      deviceIds: []
+      external: []
+      roleString: admin
+      roles: []
+    latestRouteInfo:
+      env: prod
+      microserviceUri: https://microservices.beamable.com/v2/
+      registryUri: https://microservices.beamable.com/ecr/
+      apiUri: https://api.beamable.com
+      portalUri: https://portal.beamable.com
+      storageBrowserUri: https://storage.beamable.com
+      socketConfig:
+        uri: 
+        provider: pubnub
+  focusLater: {fileID: 13}
+  needsGameSelection: 0
+  gameSelectionIndex: 2
+  realmSelectionIndex: 8
+  cidOrAlias: georgiana-ion
+  email: georgiana.ion@updivision.com
+  password: aebuLcjiiCV4RZ9
+  env: 1
+  host: https://api.beamable.com
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fb5949794f496d81a871dd92e24a49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Beamable.Editor::Beamable.Editor.UI.ContentWindow.ContentWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Beam Content
+    m_Image: {fileID: 2800000, guid: 3b099ea9b7e0b487fa0e667d3e931902, type: 3}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Beam Content\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1893
+    y: -203
+    width: 892
+    height: 652
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_OverlaysVisible: 1
+  InitializedConfig:
+    Title: Beam Content
+    DockPreferenceTypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    FocusOnShow: 0
+    RequireLoggedUser: 1
+    RequirePid: 1
+  _contentSearchData:
+    searchText: 
+  mainSplitter:
+    splitDirection: 0
+    cellCount: 2
+    cellNormalizedSizes:
+    - 0.33738193
+    - 0.66261804
+    resizingIndex: -1
+    scrollPositions:
+    - {x: 0, y: 0}
+    - {x: 0, y: 0}
+    availableRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 888
+      height: 552
+  selectedValidationIndex: 0
+  validationDetailScrollPosition: {x: 0, y: 0}
+  _frameRenderedItems:
+  - FullId: botprofile.standard
+    TypeName: botprofile
+    Name: standard
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: ec4995ec247a6e8fdd9435916b16f2d40d0a2c34
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/botprofile.standard.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: currency.gems
+    TypeName: currency
+    Name: gems
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 31d48a64ad6d0d233406b8d9fa592c51e840b5e4
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/currency.gems.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1759844441079
+  - FullId: emails.password_update
+    TypeName: emails
+    Name: password_update
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 178e4d3a9d818384d41eecb125b9a635ee156378
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/emails.password_update.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: game_types.bots_only
+    TypeName: game_types
+    Name: bots_only
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: ec40a2eb37a7ca16fc9a7f48ed93bbbdf45ec632
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/game_types.bots_only.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: game_types.free_for_all
+    TypeName: game_types
+    Name: free_for_all
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 259dfa8ea8b6a611c7421cc55fc6acff287876a2
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/game_types.free_for_all.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.bee
+    TypeName: items.character
+    Name: bee
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: f8cf49f12ae92cd3b8bad63a2b5765029732276a
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.character.bee.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.chameleon
+    TypeName: items.character
+    Name: chameleon
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 3aff9f6b49a5137c7e870ceb2a0b1194c5f9b2be
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.character.chameleon.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.chicken
+    TypeName: items.character
+    Name: chicken
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 9dbdd0dd6fe1a40066b4d1cf3731e2359fe2b566
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.character.chicken.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.fatbird
+    TypeName: items.character
+    Name: fatbird
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: edaf5948f9debcfafa6622bfdda6d73a87fa313b
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.character.fatbird.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.goon
+    TypeName: items.character
+    Name: goon
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 6c24f1b6cda455f42e12b8d282eff10410083004
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.character.goon.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.mushroom
+    TypeName: items.character
+    Name: mushroom
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 9369cc4ca537aabd405eca16c18c879d562c5517
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.character.mushroom.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.tucan
+    TypeName: items.character
+    Name: tucan
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 0015d64083464287a9760270c37c5af322f7fe07
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.character.tucan.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.character.turtle
+    TypeName: items.character
+    Name: turtle
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 24864a13c33713eb7827794a1e44644f871a8110
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.character.turtle.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.armyhat
+    TypeName: items.hat
+    Name: armyhat
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 78b060ee374e70703516a28cd4d02a696690bbea
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.armyhat.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.baseball
+    TypeName: items.hat
+    Name: baseball
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 5ab37c75838f38f5b4b7fca24b380cf0b6ac3aee
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.baseball.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.beanie
+    TypeName: items.hat
+    Name: beanie
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 995455bb7816ae7388e8515e3516471dc3f0c30e
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.beanie.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.cowboy
+    TypeName: items.hat
+    Name: cowboy
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: d0d3d1da70bb398b1e4fc648bf0a1e46abf0b05e
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.cowboy.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.crown
+    TypeName: items.hat
+    Name: crown
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: cc47699c15e33898ac4a766a1412a04c876dde55
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.crown.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.fez
+    TypeName: items.hat
+    Name: fez
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 4503ec95999b380a515ba03644663769d47d62e1
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.fez.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.helmet
+    TypeName: items.hat
+    Name: helmet
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: f4b49910b9eef25dd8e029ebda499f5d1ce32f45
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.helmet.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.tophat
+    TypeName: items.hat
+    Name: tophat
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 991abbc64500fff4d10cf04b01485d156e015a4e
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.tophat.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: items.hat.viking
+    TypeName: items.hat
+    Name: viking
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: c017761d1a48a195fde4da0c36254c9972b4f62f
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.viking.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: leaderboards.default
+    TypeName: leaderboards
+    Name: default
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 5b0c8fc010ba15f19e6aa3ca5efb0031e7fa046b
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/leaderboards.default.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: leaderboards.game
+    TypeName: leaderboards
+    Name: game
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 366b59d652d65d720d123e4fc9c139a926bb988c
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/leaderboards.game.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.armyhat
+    TypeName: listings
+    Name: armyhat
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: eb7eef9140edd5c29d67144b587f1c03fd3be82d
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.armyhat.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.baseball
+    TypeName: listings
+    Name: baseball
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: e078e45b89bf54d501ba8f186daa48104050de7e
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.baseball.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.beanie
+    TypeName: listings
+    Name: beanie
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 4f13395d990a0a1da04fd7a0b667cebdf6fc7d15
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.beanie.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.bee
+    TypeName: listings
+    Name: bee
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 04ba9ddfbe3e76bda741d2d8ae0b140ed14c29f8
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.bee.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.chameleon
+    TypeName: listings
+    Name: chameleon
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 21c3f1538c31e916179947601b6ea21a8913e0b9
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.chameleon.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.chicken
+    TypeName: listings
+    Name: chicken
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 3f12532ccd8f835503b363d95e870a7a5cb5149e
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.chicken.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.cowboy
+    TypeName: listings
+    Name: cowboy
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 3c14f754fe562ed52f023aa43a447cb395e2eff4
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.cowboy.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.crown
+    TypeName: listings
+    Name: crown
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: a758d1734012b8780dc39e9a0a2d18c5b1deaa89
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.crown.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.fatbird
+    TypeName: listings
+    Name: fatbird
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 6080f74bac0a79b3d731757a7c29b7db133aa01b
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.fatbird.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.fez
+    TypeName: listings
+    Name: fez
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 0e063a6806c55bcb8d8c6871bbb58ec2e0cb62d5
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.fez.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.gem_bag
+    TypeName: listings
+    Name: gem_bag
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: d46764a593e7224756ba49a117ced15f49d8efea
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.gem_bag.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.gem_chest
+    TypeName: listings
+    Name: gem_chest
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: d40f37eed475bfcdb2cf8b70c9ca097c74b0a647
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.gem_chest.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.mushroom
+    TypeName: listings
+    Name: mushroom
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 35bcd8d35916fa0bf939b28ac6b9e83fddfea205
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.mushroom.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.tophat
+    TypeName: listings
+    Name: tophat
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: cbe12ac6830a459e5f84cf41fd0b724c5e922b89
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.tophat.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.tucan
+    TypeName: listings
+    Name: tucan
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 81fe05832a759b6869fdbfca7046fcee68c9356d
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.tucan.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.turtle
+    TypeName: listings
+    Name: turtle
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: c7d6d50669e46881a8f214d76443cfce4bf70b8f
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.turtle.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: listings.viking
+    TypeName: listings
+    Name: viking
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 67120a2e4dacec38437e08d23b3f45e9a8c89874
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/listings.viking.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: skus.dollar
+    TypeName: skus
+    Name: dollar
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 2b40ed243ee3c13099a3a4415836d69281901540
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/skus.dollar.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: skus.two_dollars
+    TypeName: skus
+    Name: two_dollars
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 9d3cd277309a6811790ffcd15d6e64217c80191d
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/skus.two_dollars.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: stores.characters
+    TypeName: stores
+    Name: characters
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 0d9a29f85af0880cc48d6ef23449f85d5e128e57
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/stores.characters.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: stores.gems
+    TypeName: stores
+    Name: gems
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: f0343daf481dfc77e2d786237e5c20f457a8be3c
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/stores.gems.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: stores.hats
+    TypeName: stores
+    Name: hats
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: e5ae5a8ab7bc49b0612fe1d184583899ef7f10f6
+    Tags: []
+    TagsStatus: 
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/stores.hats.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  - FullId: tournaments.default
+    TypeName: tournaments
+    Name: default
+    CurrentStatus: 8
+    IsInConflict: 0
+    Hash: 5f4c476dd328de7e3016874b7514e4641891caf5
+    Tags:
+    - base
+    TagsStatus: 02000000
+    JsonFilePath: /Users/georgianaion/Documents/Beamable/commerce-sample-project/.beamable/content/DE_1776244147362865/global/tournaments.default.json
+    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
+    LatestUpdateAtDate: 1756196841575
+  _itemContentIdToRowRect:
+    keys:
+    - botprofile.standard
+    - currency.gems
+    - emails.password_update
+    - game_types.bots_only
+    - game_types.free_for_all
+    - items.character.bee
+    - items.character.chameleon
+    - items.character.chicken
+    - items.character.fatbird
+    - items.character.goon
+    - items.character.mushroom
+    - items.character.tucan
+    - items.character.turtle
+    - items.hat.armyhat
+    - items.hat.baseball
+    - items.hat.beanie
+    - items.hat.cowboy
+    - items.hat.crown
+    - items.hat.fez
+    - items.hat.helmet
+    - items.hat.tophat
+    - items.hat.viking
+    - leaderboards.default
+    - leaderboards.game
+    - listings.armyhat
+    - listings.baseball
+    - listings.beanie
+    - listings.bee
+    - listings.chameleon
+    - listings.chicken
+    - listings.cowboy
+    - listings.crown
+    - listings.fatbird
+    - listings.fez
+    - listings.gem_bag
+    - listings.gem_chest
+    - listings.mushroom
+    - listings.tophat
+    - listings.tucan
+    - skus.dollar
+    - skus.two_dollars
+    - stores.characters
+    - stores.gems
+    - stores.hats
+    - tournaments.default
+    - currency.coins
+    - game_types.default1
+    - game_types.default2
+    - stores.New_stores_0
+    - stores.TestStore
+    - listings.New_listings_0
+    - listings.TestListing
+    - skus.New_skus_0
+    - skus.New_skus_1
+    - skus.TestSku
+    - skus.TestSku0
+    - items.character.New_items_character_0
+    - items.character.TestCharacter
+    - listings.turtle
+    - listings.viking
+    values: 0900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000a0000001e00000032000000460000005a0000006e0000008200000096000000aa000000be000000d2000000e6000000fa0000000e010000220100000900000009000000090000000900000009000000090000001c0100003c02000052020000da030000c403000086030000f8020000e103000053030000f703000069030000d702000049020000360100004a010000
+  _legacyContentGuids: []
+  snapshotSplitter:
+    splitDirection: 0
+    cellCount: 0
+    cellNormalizedSizes: []
+    resizingIndex: 0
+    scrollPositions: []
+    availableRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -413,10 +1352,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1710
-    y: -150
-    width: 816
-    height: 615
+    x: 1893
+    y: -203
+    width: 892
+    height: 652
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -963,11 +1902,11 @@ MonoBehaviour:
       displayed: 0
       id: Cinemachine Tool Settings
       index: 14
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -999,9 +1938,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 136.45105, y: -579.6409, z: 1.3041629}
+    m_Target: {x: 363.47153, y: -688.5369, z: -9.087112}
     speed: 2
-    m_Value: {x: 136.45105, y: -579.6409, z: 1.3041629}
+    m_Value: {x: 363.47153, y: -688.5369, z: -9.087112}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1051,9 +1990,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 260.99164
+    m_Target: 1300.118
     speed: 2
-    m_Value: 260.99164
+    m_Value: 1300.118
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1074,7 +2013,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
-    m_SceneView: {fileID: 16}
+    m_SceneView: {fileID: 14}
     m_CameraOverscanSettings:
       m_Opacity: 50
       m_Scale: 1
@@ -1087,7 +2026,7 @@ MonoBehaviour:
     name: Contributors / Receivers
     section: Lighting
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1110,8 +2049,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 24
-    width: 238
-    height: 559
+    width: 422
+    height: 617
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1128,7 +2067,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7c19ffff8e19ffffba28ffffae32ffffc032ffffec41ffff144dffff264dffff505cffff2e79ffff4079ffff6a88ffff32c9ffff44c9ffff70d8ffffe8faffff1ad6000004da00003adb0000
+      m_ExpandedIDs: c895ffffda95ffffcaa4ffffd0afffffe2afffffd2beffffa2cbffffb4cbffffdedaffffe6faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1145,7 +2084,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1153,7 +2092,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &18
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1174,10 +2113,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 240
-    y: 24
-    width: 817
-    height: 559
+    x: 1893
+    y: -203
+    width: 892
+    height: 652
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1195,7 +2134,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 817, y: 538}
+  m_TargetSize: {x: 1784, y: 1262}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1210,10 +2149,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -204.25
-    m_HBaseRangeMax: 204.25
-    m_VBaseRangeMin: -134.5
-    m_VBaseRangeMax: 134.5
+    m_HBaseRangeMin: -446
+    m_HBaseRangeMax: 446
+    m_VBaseRangeMin: -315.5
+    m_VBaseRangeMax: 315.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1231,1037 +2170,30 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 817
-      height: 538
-    m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 408.5, y: 269}
+      width: 892
+      height: 631
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 446, y: 315.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -204.25
-      y: -134.5
-      width: 408.5
-      height: 269
+      x: -446
+      y: -315.5
+      width: 892
+      height: 631
     m_MinimalGUI: 1
-  m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 817, y: 559}
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 892, y: 652}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
   m_showToolbar: 1
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bebebe536a6748f59db0465863a564ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 600, y: 600}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Beam Account
-    m_Image: {fileID: 2800000, guid: 3b099ea9b7e0b487fa0e667d3e931902, type: 3}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Beam Account\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 1710
-    y: -150
-    width: 816
-    height: 615
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
-  cli:
-    latestConfig:
-      host: https://api.beamable.com
-      cid: 1774561898395648
-      pid: DE_1776244147362865
-      configPath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable
-    latestAccount:
-      id: 1775278141704192
-      email: georgiana.ion@updivision.com
-      language: en
-      scopes:
-      - '*'
-      thirdPartyAppAssociations: []
-      deviceIds: []
-      external: []
-      roleString: admin
-      roles: []
-      tokenCid: 1774561898395648
-      tokenPid: DE_1776244147362865
-      accessToken: d86ecc72-21b5-414d-a1df-6870353185e0
-      refreshToken: 9787d2b9-10bf-4983-944c-d9fb7d0d12ef
-      tokenExpiresIn: 180000
-    latestRealmInfo:
-      CustomerAlias: georgiana-ion
-      Cid: 1774561898395648
-      VisibleRealms:
-      - Cid: 1774561898395648
-        Pid: DE_1774561898395651
-        ParentPid: 
-        ProjectName: LeaderboardSampleProject-prod
-        RealmName: LeaderboardSampleProject-prod
-        RealmSecret: 33ddeb19-18e2-4e17-9507-ecc6dba241dc
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1774561898395650
-        ParentPid: DE_1774561898395651
-        ProjectName: LeaderboardSampleProject-prod
-        RealmName: LeaderboardSampleProject-staging
-        RealmSecret: 495fbc75-bcf5-4faa-a95a-fb01980a3082
-        IsDev: 0
-        IsStaging: 1
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1774561898395649
-        ParentPid: DE_1774561898395650
-        ProjectName: LeaderboardSampleProject-prod
-        RealmName: LeaderboardSampleProject-dev
-        RealmSecret: 918991e6-b17c-494a-85ae-f61369f65bc7
-        IsDev: 1
-        IsStaging: 0
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1776244147362845
-        ParentPid: 
-        ProjectName: PaymentSampleRepro-prod
-        RealmName: PaymentSampleRepro-prod
-        RealmSecret: 58ff1039-a100-4f96-9a2c-1e712ae7ec71
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1776244147362844
-        ParentPid: DE_1776244147362845
-        ProjectName: PaymentSampleRepro-prod
-        RealmName: PaymentSampleRepro-staging
-        RealmSecret: 35ef0f3e-1203-4cde-abdf-bc3be13d8723
-        IsDev: 0
-        IsStaging: 1
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1776244147362843
-        ParentPid: DE_1776244147362844
-        ProjectName: PaymentSampleRepro-prod
-        RealmName: PaymentSampleRepro-dev
-        RealmSecret: a6b57c09-3b2b-4483-b92a-9caa54426f2a
-        IsDev: 1
-        IsStaging: 0
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1776244147362865
-        ParentPid: 
-        ProjectName: SampleSandbox-prod
-        RealmName: SampleSandbox-prod
-        RealmSecret: f50f98af-ee0e-4fd0-aa24-86d18386f058
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1776244147362864
-        ParentPid: DE_1776244147362865
-        ProjectName: SampleSandbox-prod
-        RealmName: SampleSandbox-staging
-        RealmSecret: 5eb60ee2-944f-42d4-ac32-16c055d187c7
-        IsDev: 0
-        IsStaging: 1
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1776244147362863
-        ParentPid: DE_1776244147362864
-        ProjectName: SampleSandbox-prod
-        RealmName: SampleSandbox-dev
-        RealmSecret: bd60e0e7-b1f8-4765-8992-b6d531c93f36
-        IsDev: 1
-        IsStaging: 0
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1791322956717098
-        ParentPid: 
-        ProjectName: SampleToBeDeleted-prod
-        RealmName: SampleToBeDeleted-prod
-        RealmSecret: a30c9789-7b4c-4020-b703-c3c51276d61b
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1791323023985708
-        ParentPid: 
-        ProjectName: ToBeDeleted-prod
-        RealmName: ToBeDeleted-prod
-        RealmSecret: 3d005367-7f39-4479-9edf-3363553a34f6
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1791323023985707
-        ParentPid: DE_1791323023985708
-        ProjectName: ToBeDeleted-prod
-        RealmName: ToBeDeleted-staging
-        RealmSecret: 100e8e0a-ef2f-4178-9986-7634f44a3520
-        IsDev: 0
-        IsStaging: 1
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1791323023985706
-        ParentPid: DE_1791323023985707
-        ProjectName: ToBeDeleted-prod
-        RealmName: ToBeDeleted-dev
-        RealmSecret: e50dd4cd-44e9-40d8-b561-263bd05599e0
-        IsDev: 1
-        IsStaging: 0
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1791323023985751
-        ParentPid: 
-        ProjectName: UnrealGame-prod
-        RealmName: UnrealGame-prod
-        RealmSecret: 8fa7706b-5a35-4422-8f62-0c242427fca0
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1791323023985750
-        ParentPid: DE_1791323023985751
-        ProjectName: UnrealGame-prod
-        RealmName: UnrealGame-staging
-        RealmSecret: eba3ba76-69a1-4252-b218-2c2dcfe53f3d
-        IsDev: 0
-        IsStaging: 1
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1791323023985749
-        ParentPid: DE_1791323023985750
-        ProjectName: UnrealGame-prod
-        RealmName: UnrealGame-dev
-        RealmSecret: 095c383d-7f7f-4d05-a7a8-5226d96fce3e
-        IsDev: 1
-        IsStaging: 0
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1850756271339554
-        ParentPid: 
-        ProjectName: Okidoke-prod
-        RealmName: Okidoke-prod
-        RealmSecret: 1a22ebe5-a709-4d5c-b101-b80be1541294
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1850756271339553
-        ParentPid: DE_1850756271339554
-        ProjectName: Okidoke-prod
-        RealmName: Okidoke-staging
-        RealmSecret: 198b29d8-f590-43cf-bf6b-b2d248de1b58
-        IsDev: 0
-        IsStaging: 1
-        IsProduction: 0
-      - Cid: 1774561898395648
-        Pid: DE_1850756271339552
-        ParentPid: DE_1850756271339553
-        ProjectName: Okidoke-prod
-        RealmName: Okidoke-dev
-        RealmSecret: e3cd4687-9a92-4463-a966-0a9dd34e905a
-        IsDev: 1
-        IsStaging: 0
-        IsProduction: 0
-    latestGames:
-      VisibleGames:
-      - Cid: 1774561898395648
-        Pid: DE_1774561898395651
-        ParentPid: 
-        ProjectName: LeaderboardSampleProject-prod
-        RealmName: LeaderboardSampleProject-prod
-        RealmSecret: 
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1776244147362845
-        ParentPid: 
-        ProjectName: PaymentSampleRepro-prod
-        RealmName: PaymentSampleRepro-prod
-        RealmSecret: 
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1776244147362865
-        ParentPid: 
-        ProjectName: SampleSandbox-prod
-        RealmName: SampleSandbox-prod
-        RealmSecret: 
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1791322956717098
-        ParentPid: 
-        ProjectName: SampleToBeDeleted-prod
-        RealmName: SampleToBeDeleted-prod
-        RealmSecret: 
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1791323023985708
-        ParentPid: 
-        ProjectName: ToBeDeleted-prod
-        RealmName: ToBeDeleted-prod
-        RealmSecret: 
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1791323023985751
-        ParentPid: 
-        ProjectName: UnrealGame-prod
-        RealmName: UnrealGame-prod
-        RealmSecret: 
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-      - Cid: 1774561898395648
-        Pid: DE_1850756271339554
-        ParentPid: 
-        ProjectName: Okidoke-prod
-        RealmName: Okidoke-prod
-        RealmSecret: 
-        IsDev: 0
-        IsStaging: 0
-        IsProduction: 1
-    latestAlias: georgiana-ion
-    latestLoginError: 
-    latestUser:
-      id: 1775278141704192
-      email: georgiana.ion@updivision.com
-      language: 
-      scopes: []
-      thirdPartyAppAssociations: []
-      deviceIds: []
-      external: []
-      roleString: admin
-      roles: []
-    latestRouteInfo:
-      env: prod
-      microserviceUri: https://microservices.beamable.com/v2/
-      registryUri: https://microservices.beamable.com/ecr/
-      apiUri: https://api.beamable.com
-      portalUri: https://portal.beamable.com
-      storageBrowserUri: https://storage.beamable.com
-      socketConfig:
-        uri: wss://socket.beamable.com
-        provider: beamable
-  focusLater: {fileID: 20}
-  needsGameSelection: 0
-  gameSelectionIndex: 2
-  realmSelectionIndex: 6
-  cidOrAlias: georgiana-ion
-  email: 'georgiana.ion@updivision.com '
-  password: aebuLcjiiCV4RZ9
-  env: 1
-  host: https://api.beamable.com
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6fb5949794f496d81a871dd92e24a49, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 50, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Beam Content
-    m_Image: {fileID: 2800000, guid: 3b099ea9b7e0b487fa0e667d3e931902, type: 3}
-    m_Tooltip: 
-    m_TextWithWhitespace: "Beam Content\u200B"
-  m_Pos:
-    serializedVersion: 2
-    x: 1710
-    y: -150
-    width: 816
-    height: 615
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_ContainerData: []
-    m_OverlaysVisible: 1
-  InitializedConfig:
-    Title: Beam Content
-    DockPreferenceTypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    FocusOnShow: 0
-    RequireLoggedUser: 1
-    RequirePid: 1
-  _contentSearchData:
-    searchText: 
-  mainSplitter:
-    splitDirection: 0
-    cellCount: 2
-    cellNormalizedSizes:
-    - 0.42183623
-    - 0.57816154
-    resizingIndex: -1
-    scrollPositions:
-    - {x: 0, y: 0}
-    - {x: 0, y: 0}
-    availableRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 812
-      height: 515
-  selectedValidationIndex: 0
-  validationDetailScrollPosition: {x: 0, y: 0}
-  _frameRenderedItems:
-  - FullId: botprofile.standard
-    TypeName: botprofile
-    Name: standard
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: ec4995ec247a6e8fdd9435916b16f2d40d0a2c34
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/botprofile.standard.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: currency.gems
-    TypeName: currency
-    Name: gems
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 31d48a64ad6d0d233406b8d9fa592c51e840b5e4
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/currency.gems.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1759844441079
-  - FullId: emails.password_update
-    TypeName: emails
-    Name: password_update
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 178e4d3a9d818384d41eecb125b9a635ee156378
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/emails.password_update.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: game_types.bots_only
-    TypeName: game_types
-    Name: bots_only
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: ec40a2eb37a7ca16fc9a7f48ed93bbbdf45ec632
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/game_types.bots_only.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: game_types.free_for_all
-    TypeName: game_types
-    Name: free_for_all
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 259dfa8ea8b6a611c7421cc55fc6acff287876a2
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/game_types.free_for_all.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.character.bee
-    TypeName: items.character
-    Name: bee
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: f8cf49f12ae92cd3b8bad63a2b5765029732276a
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.bee.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.character.chameleon
-    TypeName: items.character
-    Name: chameleon
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 3aff9f6b49a5137c7e870ceb2a0b1194c5f9b2be
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.chameleon.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.character.chicken
-    TypeName: items.character
-    Name: chicken
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 9dbdd0dd6fe1a40066b4d1cf3731e2359fe2b566
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.chicken.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.character.fatbird
-    TypeName: items.character
-    Name: fatbird
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: edaf5948f9debcfafa6622bfdda6d73a87fa313b
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.fatbird.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.character.goon
-    TypeName: items.character
-    Name: goon
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 6c24f1b6cda455f42e12b8d282eff10410083004
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.goon.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.character.mushroom
-    TypeName: items.character
-    Name: mushroom
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 9369cc4ca537aabd405eca16c18c879d562c5517
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.mushroom.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.character.tucan
-    TypeName: items.character
-    Name: tucan
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 0015d64083464287a9760270c37c5af322f7fe07
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.tucan.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.character.turtle
-    TypeName: items.character
-    Name: turtle
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 24864a13c33713eb7827794a1e44644f871a8110
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.character.turtle.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.hat.armyhat
-    TypeName: items.hat
-    Name: armyhat
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 78b060ee374e70703516a28cd4d02a696690bbea
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.armyhat.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.hat.baseball
-    TypeName: items.hat
-    Name: baseball
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 5ab37c75838f38f5b4b7fca24b380cf0b6ac3aee
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.baseball.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.hat.beanie
-    TypeName: items.hat
-    Name: beanie
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 995455bb7816ae7388e8515e3516471dc3f0c30e
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.beanie.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.hat.cowboy
-    TypeName: items.hat
-    Name: cowboy
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: d0d3d1da70bb398b1e4fc648bf0a1e46abf0b05e
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.cowboy.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.hat.crown
-    TypeName: items.hat
-    Name: crown
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: cc47699c15e33898ac4a766a1412a04c876dde55
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.crown.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.hat.fez
-    TypeName: items.hat
-    Name: fez
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 4503ec95999b380a515ba03644663769d47d62e1
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.fez.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.hat.helmet
-    TypeName: items.hat
-    Name: helmet
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: f4b49910b9eef25dd8e029ebda499f5d1ce32f45
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.helmet.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.hat.tophat
-    TypeName: items.hat
-    Name: tophat
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 991abbc64500fff4d10cf04b01485d156e015a4e
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.tophat.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: items.hat.viking
-    TypeName: items.hat
-    Name: viking
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: c017761d1a48a195fde4da0c36254c9972b4f62f
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/items.hat.viking.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: leaderboards.default
-    TypeName: leaderboards
-    Name: default
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 5b0c8fc010ba15f19e6aa3ca5efb0031e7fa046b
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/leaderboards.default.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: leaderboards.game
-    TypeName: leaderboards
-    Name: game
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 366b59d652d65d720d123e4fc9c139a926bb988c
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/leaderboards.game.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.armyhat
-    TypeName: listings
-    Name: armyhat
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: eb7eef9140edd5c29d67144b587f1c03fd3be82d
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.armyhat.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.baseball
-    TypeName: listings
-    Name: baseball
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: e078e45b89bf54d501ba8f186daa48104050de7e
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.baseball.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.beanie
-    TypeName: listings
-    Name: beanie
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 4f13395d990a0a1da04fd7a0b667cebdf6fc7d15
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.beanie.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.bee
-    TypeName: listings
-    Name: bee
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 04ba9ddfbe3e76bda741d2d8ae0b140ed14c29f8
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.bee.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.chameleon
-    TypeName: listings
-    Name: chameleon
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 21c3f1538c31e916179947601b6ea21a8913e0b9
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.chameleon.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.chicken
-    TypeName: listings
-    Name: chicken
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 3f12532ccd8f835503b363d95e870a7a5cb5149e
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.chicken.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.cowboy
-    TypeName: listings
-    Name: cowboy
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 3c14f754fe562ed52f023aa43a447cb395e2eff4
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.cowboy.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.crown
-    TypeName: listings
-    Name: crown
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: a758d1734012b8780dc39e9a0a2d18c5b1deaa89
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.crown.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.fatbird
-    TypeName: listings
-    Name: fatbird
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 6080f74bac0a79b3d731757a7c29b7db133aa01b
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.fatbird.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.fez
-    TypeName: listings
-    Name: fez
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 0e063a6806c55bcb8d8c6871bbb58ec2e0cb62d5
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.fez.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.gem_bag
-    TypeName: listings
-    Name: gem_bag
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: d46764a593e7224756ba49a117ced15f49d8efea
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.gem_bag.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.gem_chest
-    TypeName: listings
-    Name: gem_chest
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: d40f37eed475bfcdb2cf8b70c9ca097c74b0a647
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.gem_chest.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.mushroom
-    TypeName: listings
-    Name: mushroom
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 35bcd8d35916fa0bf939b28ac6b9e83fddfea205
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.mushroom.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.tophat
-    TypeName: listings
-    Name: tophat
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: cbe12ac6830a459e5f84cf41fd0b724c5e922b89
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.tophat.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.tucan
-    TypeName: listings
-    Name: tucan
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 81fe05832a759b6869fdbfca7046fcee68c9356d
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.tucan.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.turtle
-    TypeName: listings
-    Name: turtle
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: c7d6d50669e46881a8f214d76443cfce4bf70b8f
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.turtle.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: listings.viking
-    TypeName: listings
-    Name: viking
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 67120a2e4dacec38437e08d23b3f45e9a8c89874
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/listings.viking.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: skus.dollar
-    TypeName: skus
-    Name: dollar
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 2b40ed243ee3c13099a3a4415836d69281901540
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/skus.dollar.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: skus.two_dollars
-    TypeName: skus
-    Name: two_dollars
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 9d3cd277309a6811790ffcd15d6e64217c80191d
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/skus.two_dollars.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: stores.characters
-    TypeName: stores
-    Name: characters
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 0d9a29f85af0880cc48d6ef23449f85d5e128e57
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/stores.characters.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: stores.gems
-    TypeName: stores
-    Name: gems
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: f0343daf481dfc77e2d786237e5c20f457a8be3c
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/stores.gems.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: stores.hats
-    TypeName: stores
-    Name: hats
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: e5ae5a8ab7bc49b0612fe1d184583899ef7f10f6
-    Tags: []
-    TagsStatus: 
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/stores.hats.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  - FullId: tournaments.default
-    TypeName: tournaments
-    Name: default
-    CurrentStatus: 8
-    IsInConflict: 0
-    Hash: 5f4c476dd328de7e3016874b7514e4641891caf5
-    Tags:
-    - base
-    TagsStatus: 02000000
-    JsonFilePath: /Users/georgianaion/Documents/Beamable/shop-sample-project/.beamable/content/DE_1776244147362865/global/tournaments.default.json
-    ReferenceManifestUid: 68e5185968bf6a49ca7764a2
-    LatestUpdateAtDate: 1756196841575
-  _itemContentIdToRowRect:
-    keys:
-    - botprofile.standard
-    - currency.gems
-    - emails.password_update
-    - game_types.bots_only
-    - game_types.free_for_all
-    - items.character.bee
-    - items.character.chameleon
-    - items.character.chicken
-    - items.character.fatbird
-    - items.character.goon
-    - items.character.mushroom
-    - items.character.tucan
-    - items.character.turtle
-    - items.hat.armyhat
-    - items.hat.baseball
-    - items.hat.beanie
-    - items.hat.cowboy
-    - items.hat.crown
-    - items.hat.fez
-    - items.hat.helmet
-    - items.hat.tophat
-    - items.hat.viking
-    - leaderboards.default
-    - leaderboards.game
-    - listings.armyhat
-    - listings.baseball
-    - listings.beanie
-    - listings.bee
-    - listings.chameleon
-    - listings.chicken
-    - listings.cowboy
-    - listings.crown
-    - listings.fatbird
-    - listings.fez
-    - listings.gem_bag
-    - listings.gem_chest
-    - listings.mushroom
-    - listings.tophat
-    - listings.tucan
-    - skus.dollar
-    - skus.two_dollars
-    - stores.characters
-    - stores.gems
-    - stores.hats
-    - tournaments.default
-    - calendars.New_calendars_0
-    - listings.turtle
-    - items.character.New_items_character_0
-    - items.character.TestCharacter
-    values: 0900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000900000009000000090000000a0000001e00000032000000460000005a0000006e0000008200000096000000aa000000be000000d2000000e6000000fa0000000e010000220100000900000009000000090000000900000009000000090000002301000036010000ce00000076030000
-  _legacyContentGuids: []
-  snapshotSplitter:
-    splitDirection: 0
-    cellCount: 2
-    cellNormalizedSizes:
-    - 0.2932761
-    - 0.70672345
-    resizingIndex: -1
-    scrollPositions:
-    - {x: 0, y: 0}
-    - {x: 0, y: 0}
-    availableRect:
-      serializedVersion: 2
-      x: 0
-      y: 66
-      width: 699
-      height: 482
---- !u!114 &21
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2282,10 +2214,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1470
-    y: 491
-    width: 1057
-    height: 304
+    x: 0
+    y: 667
+    width: 1316
+    height: 302
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2298,7 +2230,7 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: content
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -2308,26 +2240,26 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
-    m_OriginalText: 
+    m_OriginalText: content
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/georgianaion/Documents/Beamable/shop-sample-project
+  m_LastProjectPath: /Users/georgianaion/Documents/Beamable/commerce-sample-project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 63.984375}
-    m_SelectedIDs: 26af0000
-    m_LastClickedID: 44838
-    m_ExpandedIDs: 
+    scrollPos: {x: 0, y: 119.5}
+    m_SelectedIDs: 8cab0000
+    m_LastClickedID: 43916
+    m_ExpandedIDs: 000000006cc900006ec90000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2344,7 +2276,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 13}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2356,7 +2288,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000006cc900006ec90000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2414,7 +2346,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 211
---- !u!114 &22
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2435,9 +2367,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 609
-    width: 1057
+    x: 2113
+    y: 435
+    width: 875
     height: 275
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -2450,7 +2382,7 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
---- !u!114 &23
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2471,10 +2403,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1059
+    x: 1318
     y: 24
-    width: 861
-    height: 860
+    width: 602
+    height: 945
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
