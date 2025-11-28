@@ -120,7 +120,7 @@ namespace Hats.Game
 			var context = BeamContext.Default;
 			await context.OnReady;
 			dbid ??= context.PlayerId;
-
+			
 			var stats = await context.Api.StatsService.GetStats("client", "public", "player", dbid.Value);
 			if (!stats.TryGetValue(SELECTED_CHARACTER_STAT, out var characterId))
 			{

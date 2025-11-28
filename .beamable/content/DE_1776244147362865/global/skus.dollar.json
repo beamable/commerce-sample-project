@@ -5,7 +5,7 @@
     },
     "productIds": {
       "data": {
-        "googleplay": "insert.your.google.product.id"
+        "googleplay": "gem_bag"
       }
     },
     "realPrice": {
@@ -15,5 +15,5 @@
   "tags": [
     "base"
   ],
-  "referenceManifestId": "68e5185968bf6a49ca7764a2"
+  "referenceManifestId": "6929bb57c7c183351a14be7a"
 }
